@@ -2,7 +2,7 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from .serializers import RegistrationSerializer
 from django.contrib.auth import authenticate
-from rest_framework.authtoken.models import Token  # Import Token model
+from rest_framework.authtoken.models import Token
 
 class Registration(APIView):
     # permission_classes=[AllowAny]
