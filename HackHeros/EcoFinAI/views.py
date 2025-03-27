@@ -39,7 +39,7 @@ Your response should be with in 300 chars and in **valid JSON** format with the 
     result=response.text
     result = result.lstrip("```json").rstrip("```")
     result_json = json.loads(result)
-    print(result)
+    # print(result)
     return result_json
 
 class Registration(APIView):
