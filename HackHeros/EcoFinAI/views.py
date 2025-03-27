@@ -36,4 +36,4 @@ class Evalute(APIView):
     def post(self, request):
         data = request.data
         # serializer = EvaluteSerializer(data=data)
-        return Response({'message':'evalute'})
+        return Response({'message':data})
