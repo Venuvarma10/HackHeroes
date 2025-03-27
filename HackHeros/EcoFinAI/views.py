@@ -38,4 +38,5 @@ class Evalute(APIView):
         data = request.data
         predicted_data= predict_project(data['location'],data['category'],int(data['expected_capital']))
         # serializer = EvaluteSerializer(data=data)
-        return Response({'data':{predicted_data}})
+        return Response({'data':{"risk":predicted_data[0],
+                                 }})
