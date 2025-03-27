@@ -11,7 +11,7 @@ def suggestions():
     client = genai.Client(api_key="AIzaSyDUaHL8CI0P6ukndFVCVdxzs4qkWWevPNU")
 
     response = client.models.generate_content(
-        model="gemini-2.0-flash", contents="Given a set of green finance investment projects, evaluate and recommend the best projects based on the following criteria:
+        model="gemini-2.0-flash", contents="""Given a set of green finance investment projects, evaluate and recommend the best projects based on the following criteria:
 
 Risk Factor (1-5 scale): Lower risk projects are preferable.
 
@@ -21,7 +21,7 @@ Priority Level (1-3 scale): Higher priority projects (lower number) should be pr
 
 Capital Allocation: Optimize for projects that fit within the available budget while maximizing returns and impact.
 
-Based on these parameters, generate a ranked list of recommended projects, providing a brief explanation for each selection. Highlight trade-offs between risk and ESG impact and suggest any potential adjustments to improve the investment strategy"
+Based on these parameters, generate a ranked list of recommended projects, providing a brief explanation for each selection. Highlight trade-offs between risk and ESG impact and suggest any potential adjustments to improve the investment strategy"""
     )
     return response.text
 
