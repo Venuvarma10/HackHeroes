@@ -37,7 +37,8 @@ Your response should be with in 300 chars and in **valid JSON** format with the 
 """)
     print(response.text)
     result=response.text
-    return 
+    result = result.lstrip("```json").rstrip("```")
+    return result
 
 class Registration(APIView):
     permission_classes = [AllowAny]
