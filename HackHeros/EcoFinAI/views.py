@@ -34,4 +34,4 @@ class Login(APIView):
 class Evalute(APIView):
     permission_classes=[IsAuthenticated]
     def post(self, request):
-        return Response({})
+        return Response({'message':'evalute'})
