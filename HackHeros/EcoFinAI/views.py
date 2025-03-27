@@ -7,6 +7,7 @@ from rest_framework.permissions import AllowAny,IsAuthenticated
 from .finml import predict_project
 
 from google import genai
+def suggestions()
 
 client = genai.Client(api_key="AIzaSyDUaHL8CI0P6ukndFVCVdxzs4qkWWevPNU")
 
