@@ -109,7 +109,7 @@ y_capital_pred = capital_model.predict(X_test)
 # Function to Predict New Project
 
 def predict_project(location, category, initial_capital):
-    print("debug",location, category, initial_capital)
+    # print("debug",location, category, initial_capital)
     location_encoded = label_encoders['location'].transform([location])[0]
     category_encoded = label_encoders['category'].transform([category])[0]
     features = np.array([[location_encoded, category_encoded, initial_capital]])
@@ -119,10 +119,10 @@ def predict_project(location, category, initial_capital):
     priority_prediction = priority_model.predict(features)[0]
     capital_prediction = capital_model.predict(features)[0]
 
-    print(f"Predicted Risk Factor: {risk_prediction}")
-    print(f"Predicted ESG Score: {esg_prediction:.2f}")
-    print(f"Predicted Priority: {priority_prediction}")
-    print(f"Predicted Actual Capital: {capital_prediction:.2f}")
+    # print(f"Predicted Risk Factor: {risk_prediction}")
+    # print(f"Predicted ESG Score: {esg_prediction:.2f}")
+    # print(f"Predicted Priority: {priority_prediction}")
+    # print(f"Predicted Actual Capital: {capital_prediction:.2f}")
     return risk_prediction, esg_prediction, priority_prediction, capital_prediction
 
 # Example Prediction
