@@ -23,7 +23,7 @@ Capital: {capital}
 
 
 
-Provide a recommendation for whether to approve, modify, or reject the project. Justify the decision based on sustainability, financial feasibility, and risk management. If modifications are suggested, propose specific actions such as budget adjustments, risk mitigation strategies, or alternative funding options.with in 300 words"""
+Provide a recommendation for whether to approve, modify, or reject the project. Justify the decision based on sustainability, financial feasibility, and risk management. If modifications are suggested, propose specific actions such as budget adjustments, risk mitigation strategies, or alternative funding options.with in 300 words,each in j"""
     )
     print(response.text)
     return response.text
