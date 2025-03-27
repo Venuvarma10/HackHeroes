@@ -13,7 +13,7 @@ def suggestions(risk,esg,priority,capital):
     response = client.models.generate_content(
     model="gemini-2.0-flash", contents=f"""You are a financial advisor AI specialized in sustainable (ESG) investments. 
 Given the following inputs about a project:
-- Risk Factor: {risk}scale from 1-5 i.
+- Risk Factor: {risk}scale from 1-5 i.e 1 is low 5 high
 - ESG Score: {esg}
 - Priority Level: {priority}
 - Available Capital: {capital}
