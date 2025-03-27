@@ -21,7 +21,7 @@ Priority (Scale: 1-3, where 1 = High priority, 3 = Low priority): {priority}
 
 Initial Capital: {initial_capital}
 
-Required Capital: {actual_capital}
+
 
 Provide a recommendation for whether to approve, modify, or reject the project. Justify the decision based on sustainability, financial feasibility, and risk management. If modifications are suggested, propose specific actions such as budget adjustments, risk mitigation strategies, or alternative funding options."""
     )
