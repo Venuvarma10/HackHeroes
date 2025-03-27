@@ -36,5 +36,6 @@ class Evalute(APIView):
     permission_classes=[AllowAny]
     def post(self, request):
         data = request.data
+        predict_project
         # serializer = EvaluteSerializer(data=data)
         return Response({'message':data})
