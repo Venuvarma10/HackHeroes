@@ -2,8 +2,7 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from .serializers import RegistrationSerializer
 from django.contrib.auth import authenticate
-
-# Create your views here.
+from rest_framework.authtoken.models import Token  # Import Token model
 
 class Registration(APIView):
     # permission_classes=[AllowAny]
@@ -13,8 +12,8 @@ class Registration(APIView):
         if serializer.is_valid():
             user = serializer.save()
             return Response({
-                "message":"Successfully Registered"
-                }, status=201)
+                "message": "Successfully Registered"
+            }, status=201)
         return Response(serializer.errors, status=400)
 
 class Login(APIView):
@@ -24,6 +23,6 @@ class Login(APIView):
         password = request.data.get('password')
         user = authenticate(username=username, password=password)
         if user:
-            token, created = Token.objects.get_or_create(user=user)
-            return Response({}, status=202)
+            token, created = Token.objects.get_or_create(user=user)  # Generate token
+            return Response({"token": token.key}, status=202)  # Return token in response
         return Response({"message": "Invalid credentials"}, status=401)
