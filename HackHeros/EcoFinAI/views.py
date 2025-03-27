@@ -11,7 +11,7 @@ def suggestions(risk,esg,priority,capital):
     client = genai.Client(api_key="AIzaSyDUaHL8CI0P6ukndFVCVdxzs4qkWWevPNU")
 
     response = client.models.generate_content(
-#         model="gemini-2.0-flash", contents=f"""
+    model="gemini-2.0-flash", contents=f"""""")
     print(response.text)
     return response.text
 
