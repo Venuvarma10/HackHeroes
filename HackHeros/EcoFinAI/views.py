@@ -1,6 +1,8 @@
 from django.shortcuts import render
 from rest_framework.views import APIView
-from
+from rest_framework.response import Response\
+from rest_framework.permissions import AllowAny
+from .serializers import RegistrationSerializer
 
 # Create your views here.
 
