@@ -3,7 +3,7 @@ from rest_framework.response import Response
 from .serializers import RegistrationSerializer
 from django.contrib.auth import authenticate
 from rest_framework.authtoken.models import Token
-from rest_framework.permissions import AllowAny
+from rest_framework.permissions import AllowAny,IsAuthenticated
 
 class Registration(APIView):
     permission_classes = [AllowAny]
@@ -32,5 +32,5 @@ class Login(APIView):
 
 
 class Evalute(APIView):
-    permission_classes=[Is]
+    permission_classes=[IsAuthenticated]
     def post(self, request):
