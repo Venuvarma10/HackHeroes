@@ -20,7 +20,7 @@ class Registration(APIView):
         return Response(serializer.errors, status=400)
 
 class Login(APIView):
-    permission_classes=[AllowAny]
+    # permission_classes=[AllowAny]
     def post(self, request):
         username = request.data.get('username')
         password = request.data.get('password')
