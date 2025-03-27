@@ -31,4 +31,5 @@ class Login(APIView):
         return Response({"message": "Invalid credentials"}, status=401)
 
 
-# class Evalute(APIView):
+class Evalute(APIView):
+    
