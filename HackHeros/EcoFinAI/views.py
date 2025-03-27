@@ -40,4 +40,5 @@ class Evalute(APIView):
         # serializer = EvaluteSerializer(data=data)
         return Response({'data':{"risk":predicted_data[0],
                                  "ESG",predicted_data[1],
-                                 "Preority"}})sg_prediction, priority_prediction, capital_prediction
+                                 "Preority":predicted_data[2],
+                                 }})sg_prediction, priority_prediction, capital_prediction
