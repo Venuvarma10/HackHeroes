@@ -11,7 +11,30 @@ def suggestions(risk,esg,priority,capital):
     client = genai.Client(api_key="AIzaSyDUaHL8CI0P6ukndFVCVdxzs4qkWWevPNU")
 
     response = client.models.generate_content(
-    model="gemini-2.0-flash", contents=f"""""")
+    model="gemini-2.0-flash", contents=f"""You are a financial advisor AI specialized in sustainable (ESG) investments. 
+Given the following inputs about a project:
+- Risk Factor: {risk}
+- ESG Score: {esg}
+- Priority Level: {priority}
+- Available Capital: {capital}
+
+Please provide:
+1. A concise risk assessment.
+2. An ESG assessment.
+3. Priority justification.
+4. Recommended investment strategy.
+5. Additional suggestions to improve the project's sustainability and ROI.
+
+Your response should be in **valid JSON** format with the following structure:
+
+{
+  "riskAssessment": "<text>",
+  "esgAssessment": "<text>",
+  "priorityJustification": "<text>",
+  "investmentStrategy": "<text>",
+  "additionalSuggestions": "<text>"
+}
+""")
     print(response.text)
     return response.text
 
