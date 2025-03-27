@@ -32,4 +32,3 @@ class Login(APIView):
 
 
 class Evalute(APIView):
-    
