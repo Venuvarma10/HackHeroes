@@ -6,7 +6,6 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import mean_absolute_error, accuracy_score
 
-
 print("data")
 data = {
     'project_name': [
@@ -77,6 +76,7 @@ y_esg = df['esg_score']
 y_priority = df['priority']
 y_actual_capital = df['actual_capital']
 
+# Splitting Data
 # Splitting Data
 X_train, X_test, y_risk_train, y_risk_test = train_test_split(X, y_risk, test_size=0.2, random_state=42)
 X_train, X_test, y_esg_train, y_esg_test = train_test_split(X, y_esg, test_size=0.2, random_state=42)
