@@ -15,7 +15,7 @@ def suggestions(risk,esg,priority,capital):
 Given the following inputs about a project:
 - Risk Factor: {risk}scale from 1-5 i.e 1 is low 5 high
 - ESG Score: {esg}
-- Priority Level: {priority}
+- Priority Level: {priority}scale from 1-3 i.e 3 is low 1 high
 - Available Capital: {capital}
 
 Please provide: 
