@@ -125,4 +125,4 @@ def predict_project(location, category, initial_capital):
     print(f"Predicted Actual Capital: {capital_prediction:.2f}")
     return risk_prediction, esg_prediction, priority_prediction, capital_prediction
 # Example Prediction
-# predict_project('Bangalore', 'Solar', 700000)
+predict_project('Bangalore', 'Solar', 700000)
