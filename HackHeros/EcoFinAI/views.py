@@ -41,4 +41,4 @@ class Evalute(APIView):
         return Response({'data':{"risk":predicted_data[0],
                                  "ESG",predicted_data[1],
                                  "Preority":predicted_data[2],
-                                 }})sg_prediction, priority_prediction, capital_prediction
+                                 "Capital":predicted_data[3]}})sg_prediction, priority_prediction, capital_prediction
