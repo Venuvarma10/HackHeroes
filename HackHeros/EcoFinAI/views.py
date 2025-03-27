@@ -1,5 +1,8 @@
 from rest_framework.views import APIView
 from rest_framework.response import Response
+from .finml import predict_project
+
+from rest_framework.response import Response
 from .serializers import RegistrationSerializer
 from django.contrib.auth import authenticate
 from rest_framework.authtoken.models import Token
@@ -7,6 +10,21 @@ from rest_framework.permissions import AllowAny,IsAuthenticated
 from .finml import predict_project
 
 class Registration(APIView):
+    def post(self, request):
+        data = request.data
+        location = data.get('location')
+        category = data.get('category')
+        initial_capital = data.get('initial_capital')
+        
+        risk_prediction, esg_prediction, priority_prediction, capital_prediction = predict_project(location, category, initial_capital)
+        
+        return Response({
+            "risk_factor": risk_prediction,
+            "esg_score": esg_prediction,
+            "priority": priority_prediction,
+            "actual_capital": capital_prediction
+        }, status=200)
+
     permission_classes = [AllowAny]
 
     def post(self, request):
