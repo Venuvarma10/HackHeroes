@@ -26,7 +26,19 @@ def suggestions(risk,esg,priority,capital):
 # Provide a recommendation for whether to approve, modify, or reject the project. Justify the decision based on sustainability, financial feasibility, and risk management. If modifications are suggested, propose specific actions such as budget adjustments, risk mitigation strategies, or alternative funding options.with in 300 words,each in JSON format
 # """
 #     )
-    model="gemini-2.0-flash",
+    model="gemini-2.0-flash",contents="You are an AI-based ESG investment analyst. Given the following input parameters, generate a structured JSON response providing a recommendation for the project’s investment feasibility.
+
+Input Parameters:
+
+risk_factor: (1-5) - Lower is better
+
+esg_score: (0-100) - Higher is better
+
+priority: (1-3) - 1 = High Priority, 3 = Low Priority
+
+initial_capital: (Numeric) - Required funding
+
+actual_capital: (Numeric) - Available funding
     print(response.text)
     return response.text
 
