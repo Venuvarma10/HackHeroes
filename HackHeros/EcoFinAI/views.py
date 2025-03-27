@@ -6,7 +6,7 @@ from rest_framework.authtoken.models import Token
 from rest_framework.permissions import AllowAny
 
 class Registration(APIView):
-    permission_classes = [AllowAny]
+    #permission_classes = [AllowAny]
 
     def post(self, request):
         data = request.data
@@ -31,4 +31,4 @@ class Login(APIView):
         return Response({"message": "Invalid credentials"}, status=401)
 
 
-class 
+class Evalute(APIView):
