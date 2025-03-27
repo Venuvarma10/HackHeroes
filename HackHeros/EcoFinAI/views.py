@@ -4,7 +4,7 @@ from .serializers import RegistrationSerializer
 from django.contrib.auth import authenticate
 from rest_framework.authtoken.models import Token
 from rest_framework.permissions import AllowAny,IsAuthenticated
-from finml
+from finml.py import 
 
 class Registration(APIView):
     permission_classes = [AllowAny]
