@@ -77,7 +77,8 @@ WSGI_APPLICATION = 'HackHeros.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': BASE_DIR / 'db',
+        'NAME': str(BASE_DIR / 'db'),
+
     }
 }
 
