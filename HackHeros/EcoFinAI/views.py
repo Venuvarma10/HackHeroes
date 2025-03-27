@@ -52,4 +52,4 @@ class Evalute(APIView):
                                  "ESG":predicted_data[1],
                                  "Preority":predicted_data[2],
                                  "Capital":predicted_data[3]}
-                                 ,"suggestion":sug})
+                                 ,"recomendations":sug})
