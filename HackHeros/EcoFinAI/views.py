@@ -47,7 +47,7 @@ class Evalute(APIView):
         data = request.data
         predicted_data= predict_project(data['location'],data['category'],int(data['expected_capital']))
         # serializer = EvaluteSerializer(data=data)
-        sug=suggestions()
+        sug=suggestions(predicted_data[0],)
         return Response({'data':{"risk":predicted_data[0],
                                  "ESG":predicted_data[1],
                                  "Preority":predicted_data[2],
