@@ -11,6 +11,7 @@ class Registration(APIView):
         serializer = RegistrationSerializer(data=data)
         if serializer.is_valid():
             user = serializer.save()
+            token
             return Response({
                 "message": "Successfully Registered"
             }, status=201)
