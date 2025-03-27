@@ -19,7 +19,7 @@ ESG Score (Scale: 0-100, where higher is better): {esg}
 
 Priority (Scale: 1-3, where 1 = High priority, 3 = Low priority): {priority}
 
-Initial Capital: {initial_capital}
+Capital: {capital}
 
 
 
