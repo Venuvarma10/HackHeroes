@@ -11,21 +11,22 @@ def suggestions(risk,esg,priority,capital):
     client = genai.Client(api_key="AIzaSyDUaHL8CI0P6ukndFVCVdxzs4qkWWevPNU")
 
     response = client.models.generate_content(
-        model="gemini-2.0-flash", contents=f"""Given the following project details:
+#         model="gemini-2.0-flash", contents=f"""Given the following project details:
 
-Risk Factor (Scale: 1-5, where 1 = Low risk, 5 = High risk): {risk}
+# Risk Factor (Scale: 1-5, where 1 = Low risk, 5 = High risk): {risk}
 
-ESG Score (Scale: 0-100, where higher is better): {esg}
+# ESG Score (Scale: 0-100, where higher is better): {esg}
 
-Priority (Scale: 1-3, where 1 = High priority, 3 = Low priority): {priority}
+# Priority (Scale: 1-3, where 1 = High priority, 3 = Low priority): {priority}
 
-Capital: {capital}
+# Capital: {capital}
 
 
 
-Provide a recommendation for whether to approve, modify, or reject the project. Justify the decision based on sustainability, financial feasibility, and risk management. If modifications are suggested, propose specific actions such as budget adjustments, risk mitigation strategies, or alternative funding options.with in 300 words,each in JSON format
-"""
-    )
+# Provide a recommendation for whether to approve, modify, or reject the project. Justify the decision based on sustainability, financial feasibility, and risk management. If modifications are suggested, propose specific actions such as budget adjustments, risk mitigation strategies, or alternative funding options.with in 300 words,each in JSON format
+# """
+#     )
+
     print(response.text)
     return response.text
 
