@@ -8,7 +8,7 @@ from .finml import predict_project
 
 from google import genai
 def suggestions():
-    lient = genai.Client(api_key="AIzaSyDUaHL8CI0P6ukndFVCVdxzs4qkWWevPNU")
+    client = genai.Client(api_key="AIzaSyDUaHL8CI0P6ukndFVCVdxzs4qkWWevPNU")
 
     response = client.models.generate_content(
         model="gemini-2.0-flash", contents="Explain how AI works in a few words"
