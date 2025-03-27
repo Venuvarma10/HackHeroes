@@ -27,13 +27,13 @@ Please provide:
 
 Your response should be in **valid JSON** format with the following structure:
 
-{
+
   "riskAssessment": "<text>",
   "esgAssessment": "<text>",
   "priorityJustification": "<text>",
   "investmentStrategy": "<text>",
   "additionalSuggestions": "<text>"
-}
+
 """)
     print(response.text)
     return response.text
