@@ -110,7 +110,7 @@ y_capital_pred = capital_model.predict(X_test)
 # Function to Predict New Project
 
 def predict_project(location, category, initial_capital):
-    print("debug")
+    print("debug",location, category, initial_capital)
     location_encoded = label_encoders['location'].transform([location])[0]
     category_encoded = label_encoders['category'].transform([category])[0]
     features = np.array([[location_encoded, category_encoded, initial_capital]])
