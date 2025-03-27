@@ -6,7 +6,7 @@ from rest_framework.authtoken.models import Token
 from rest_framework.permissions import AllowAny
 
 class Registration(APIView):
-    #permission_classes = [AllowAny]
+    permission_classes = [AllowAny]
 
     def post(self, request):
         data = request.data
@@ -19,7 +19,7 @@ class Registration(APIView):
         return Response(serializer.errors, status=400)
 
 class Login(APIView):
-    # permission_classes = [AllowAny]
+    permission_classes = [AllowAny]
 
     def post(self, request):
         username = request.data.get('username')
