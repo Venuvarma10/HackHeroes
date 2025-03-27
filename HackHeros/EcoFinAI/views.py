@@ -36,7 +36,8 @@ Your response should be with in 300 chars and in **valid JSON** format with the 
 
 """)
     print(response.text)
-    return response.text
+    result=response.text
+    return 
 
 class Registration(APIView):
     permission_classes = [AllowAny]
