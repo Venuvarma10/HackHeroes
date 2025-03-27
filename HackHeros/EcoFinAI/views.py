@@ -25,7 +25,7 @@ Please provide:
 4. Recommended investment strategy.
 5. Additional suggestions to improve the project's sustainability and ROI.
 
-Your response should be in **valid JSON** format with the following structure:
+Your response should be with in 300 chars and in **valid JSON** format with the following structure:
 
 
   "riskAssessment": "<text>",
