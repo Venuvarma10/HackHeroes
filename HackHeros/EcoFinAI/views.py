@@ -40,7 +40,7 @@ Your response should be with in 300 chars and in **valid JSON** format with the 
     result = result.lstrip("```json").rstrip("```")
     result_json = json.loads(result)
     print(result)
-    return result
+    return result_json
 
 class Registration(APIView):
     permission_classes = [AllowAny]
