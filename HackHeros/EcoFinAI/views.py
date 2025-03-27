@@ -8,7 +8,7 @@ from django.contrib.auth import authenticate
 # Create your views here.
 
 class Registration(APIView):
-    permission_classes=[AllowAny]
+    # permission_classes=[AllowAny]
     def post(self, request):
         data = request.data
         serializer = RegistrationSerializer(data=data)
