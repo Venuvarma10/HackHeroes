@@ -32,3 +32,5 @@ class Login(APIView):
 
 
 class Evalute(APIView):
+    permission_classes=[Is]
+    def post(self, request):
