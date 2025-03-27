@@ -5,7 +5,7 @@ from django.contrib.auth import authenticate
 from rest_framework.authtoken.models import Token
 from rest_framework.permissions import AllowAny,IsAuthenticated
 from .finml import predict_project
-
+import json
 from google import genai 
 def suggestions(risk,esg,priority,capital):
     client = genai.Client(api_key="AIzaSyDUaHL8CI0P6ukndFVCVdxzs4qkWWevPNU")
