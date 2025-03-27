@@ -7,11 +7,11 @@ from rest_framework.permissions import AllowAny,IsAuthenticated
 from .finml import predict_project
 
 from google import genai 
-def suggestions():
+def suggestions(risk):
     client = genai.Client(api_key="AIzaSyDUaHL8CI0P6ukndFVCVdxzs4qkWWevPNU")
 
     response = client.models.generate_content(
-        model="gemini-2.0-flash", contents="""riskGiven a set of green finance investment projects, evaluate and recommend the best projects based on the following criteria:
+        model="gemini-2.0-flash", contents="""riskfactor{risk}Given a set of green finance investment projects, evaluate and recommend the best projects based on the following criteria:
 
 Risk Factor (1-5 scale): Lower risk projects are preferable.
 
