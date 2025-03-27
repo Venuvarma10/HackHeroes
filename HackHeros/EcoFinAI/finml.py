@@ -77,7 +77,6 @@ y_priority = df['priority']
 y_actual_capital = df['actual_capital']
 
 # Splitting Data
-# Splitting Data
 X_train, X_test, y_risk_train, y_risk_test = train_test_split(X, y_risk, test_size=0.2, random_state=42)
 X_train, X_test, y_esg_train, y_esg_test = train_test_split(X, y_esg, test_size=0.2, random_state=42)
 X_train, X_test, y_priority_train, y_priority_test = train_test_split(X, y_priority, test_size=0.2, random_state=42)
@@ -125,5 +124,6 @@ def predict_project(location, category, initial_capital):
     print(f"Predicted Priority: {priority_prediction}")
     print(f"Predicted Actual Capital: {capital_prediction:.2f}")
     return risk_prediction, esg_prediction, priority_prediction, capital_prediction
+
 # Example Prediction
-# predict_project('Bangalore', 'Solar', 700000)
+predict_project('Bangalore', 'Solar', 700000)
