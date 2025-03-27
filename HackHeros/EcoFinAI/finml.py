@@ -6,7 +6,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import mean_absolute_error, accuracy_score
 
-print("data")
+# print("data")
 data = {
     'project_name': [
         'Solar Plant A', 'Wind Farm B', 'Hydro Project C', 'Geothermal D', 'BioEnergy E',
