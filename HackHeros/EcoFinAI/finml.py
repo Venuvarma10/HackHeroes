@@ -126,4 +126,4 @@ def predict_project(location, category, initial_capital):
     return risk_prediction, esg_prediction, priority_prediction, capital_prediction
 
 # Example Prediction
-predict_project('Bangalore', 'Solar', 700000)
+# predict_project('Bangalore', 'Solar', 700000)
