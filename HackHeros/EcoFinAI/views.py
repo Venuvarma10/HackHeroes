@@ -37,4 +37,4 @@ class Login(APIView):
             return Response({"name": user.get_full_name(),
                             #  "token": token.key
                              }, status=202)
-        return Response({"message": "Invalid
+        return Response({"message": "Invalid credentials"}, status=401)
