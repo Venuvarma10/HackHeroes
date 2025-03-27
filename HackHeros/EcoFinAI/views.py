@@ -23,6 +23,7 @@ Capital Allocation: Optimize for projects that fit within the available budget w
 
 Based on these parameters, generate a ranked list of recommended projects, providing a brief explanation for each selection. Highlight trade-offs between risk and ESG impact and suggest any potential adjustments to improve the investment strategy"""
     )
+    print(response.text)
     return response.text
 
 class Registration(APIView):
