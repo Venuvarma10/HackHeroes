@@ -18,7 +18,7 @@ Given the following inputs about a project:
 - Priority Level: {priority}
 - Available Capital: {capital}
 
-Please provide:
+Please provide: 
 1. A concise risk assessment.
 2. An ESG assessment.
 3. Priority justification.
