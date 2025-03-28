@@ -9,7 +9,7 @@ from .finml import predict_project
 import json
 from google import genai 
 def suggestions(risk,esg,priority,capital):
-    client = genai.Client(api_key="AIzaSyDUaHL8CI0P6ukndFVCVdxzs4qkWWevPNU")
+    client = genai.Client(api_key="YOUR-API-KEY")
 
     response = client.models.generate_content(
     model="gemini-2.0-flash", contents=f"""You are a financial advisor AI specialized in sustainable (ESG) investments. 
