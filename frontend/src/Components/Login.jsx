@@ -1,7 +1,8 @@
-import React,{useContext, useState} from "react";
+import React,{useContext, useState, useEffect} from "react";
 import  logo  from "../assets/Frame.png";
 import { NavLink, useNavigate } from "react-router-dom";
 import { ShopContext } from "./ContextAPI/ShopContext";
+import ToastMessage from "./ToastMessage";
 
 const Login = () => {
   const navigate=useNavigate();
@@ -10,6 +11,15 @@ const Login = () => {
     email:"",
     password:""
   })
+
+  const [toast,setToast]=useState(false);
+  const [message,setMessage]=useState('Close');
+
+  useEffect(()=>{
+    setTimeout(()=>{
+        setToast(false);
+    },1000)
+},[toast])
 
   const loginUser=async(formData)=>{
     try {
@@ -26,9 +36,11 @@ const Login = () => {
         }
         const new_data = await response.json();
         setUser({userName:formData.email,token:new_data.token});
+        navigate('/')
         return true;
     } catch (error) {
-        alert('Invalid username or password');
+      setToast(true)
+      setMessage('Invalid username or password');
     }
   }
 
@@ -39,11 +51,16 @@ const Login = () => {
 
   const handleSubmit=(e)=>{
     e.preventDefault();
-    if(loginUser(formData)){
-      navigate('/')
+    if(formData.email && formData.password){
+    loginUser(formData) 
+    }else{
+      setToast(true);
+      setMessage('Please fill in all fields');
     }
   }
   return (
+    <>
+    {toast&&<ToastMessage message={message}/>}
     <div className="w-full h-screen relative bg-black overflow-hidden flex justify-center items-center" onChange={handleChange}>
       {/* Background gradients */}
       <div className="absolute w-[1836.84px] h-[797.31px] left-[98.55px] top-[-402px] rotate-[8deg] origin-top-left 
@@ -84,6 +101,7 @@ const Login = () => {
         <p>Don't have an account?&nbsp;<NavLink to={'/register'}>Register</NavLink></p>
       </div>
     </div>
+    </>
   );
 };
 

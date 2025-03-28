@@ -8,6 +8,7 @@ from rest_framework.permissions import AllowAny,IsAuthenticated
 from .finml import predict_project
 import json
 from google import genai 
+from django.contrib.auth.models import User
 def suggestions(risk,esg,priority,capital):
     client = genai.Client(api_key="AIzaSyDUaHL8CI0P6ukndFVCVdxzs4qkWWevPNU")
 
@@ -55,7 +56,11 @@ class Registration(APIView):
             "password":data["password"],
         }
         serializer = RegistrationSerializer(data=user_data)
-        if serializer.is_valid():
+        if User.objects.filter(username=data["userName"]).exists():
+            return Response({"error":"Username already exists"},status =400)
+        elif User.objects.filter(email=data["email"]).exists():
+            return Response({"error":"Email already exists"},status =400)
+        elif serializer.is_valid():
             user = serializer.save()
             token, created = Token.objects.get_or_create(user=user)  
             return Response({"token": token.key}, status=202) 

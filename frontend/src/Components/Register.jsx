@@ -1,7 +1,8 @@
-import { useContext, useState } from "react";
+import { useContext, useState, useEffect } from "react";
 import  logo  from "../assets/Frame.png";
 import { NavLink, useNavigate } from "react-router-dom";
 import { ShopContext } from "./ContextAPI/ShopContext";
+import ToastMessage from "./ToastMessage";
 const Register=()=> {
     const nameRegex=/^[a-zA-Z_-]{6,}$/; //Only letters, hyphens, and apostrophes; 4-50 character
     const emailRegex=/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;  //Must be 10 digits, starting with 6, 7, 8, or 9.
@@ -35,6 +36,16 @@ const Register=()=> {
         }
         setFormData({...formData,[name]:value})
     }
+
+    const [toast,setToast]=useState(false);
+    const [message,setMessage]=useState('Close');
+
+     useEffect(()=>{
+          setTimeout(()=>{
+              setToast(false);
+          },2000)
+      },[toast])
+
     const registerUser=async()=>{
         try {
         const response = await fetch("http://127.0.0.1:8000/api/register/", {
@@ -50,25 +61,26 @@ const Register=()=> {
             }
             const new_data = await response.json();
             setUser({userName:formData.email,token:new_data.token});
+            navigate('/')
             return true;
         } catch (error) {
-            alert('Invalid username or password');
+            setToast(true);
+            setMessage("User name or email already exist");
         }
     }
 
     const handleSubmit=(e)=>{
         e.preventDefault();
         if(formData.userName && formData.email && formData.password && formData.confirmPassword===formData.password){
-            if(registerUser()){
-                navigate('/')
-            }
+            registerUser()
         }else {
-            alert('Please fill all the fields and password should be same');
-        }
-        
-        
+            setToast(true);
+            setMessage('Please fill all the fields and password should be same');
+        }   
     }
     return (
+        <>
+        {toast&&<ToastMessage message={message}/>}
         <div className="w-full h-screen relative bg-black overflow-hidden flex justify-center items-center" onChange={handleChange}>
       {/* Background gradients */}
       <div className="absolute w-[80%] h-[797.31px] left-[98.55px] top-[-402px] rotate-[8deg] origin-top-left 
@@ -115,6 +127,7 @@ const Register=()=> {
         <p>Already have an account?&nbsp;<NavLink to={'/login'}>Login</NavLink></p>
       </div>
     </div>
+    </>
     );
   }
 

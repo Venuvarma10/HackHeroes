@@ -1,7 +1,8 @@
-import React,{useContext, useState} from 'react'
+import React,{useContext, useState, useEffect} from 'react'
 import Header from './HEADER.JSX'
 import { ShopContext } from './ContextAPI/ShopContext'
 import { useNavigate } from 'react-router-dom'
+import ToastMessage from './ToastMessage'
 
 const InvestmentSubmission = () => {
 
@@ -16,6 +17,16 @@ const InvestmentSubmission = () => {
         const {name,value}=e.target;
         setInvestment((prev)=>({...prev,[name]:value}))
     }
+
+    const [toast,setToast]=useState(false);
+    const [message,setMessage]=useState('Close');
+
+    useEffect(()=>{
+        setTimeout(()=>{
+            setToast(false);
+        },1000)
+    },[toast])
+
     const registerUser=async()=>{
         try {
         const response = await fetch("http://127.0.0.1:8000/api/evalute/", {
@@ -35,7 +46,8 @@ const InvestmentSubmission = () => {
             await navigate('/results');
             return true;
         } catch (error) {
-            alert('Invalid Data');
+            setToast(true)
+            setMessage('Invalid Data');
         }
     }
     const handleSubmit=(e)=>{
@@ -43,10 +55,13 @@ const InvestmentSubmission = () => {
         if(investment.category && investment.expected_capital && investment.location && investment.project_name){
             registerUser()
         }else{
-            alert("Enter All Fields")
+            setToast(true)
+            setMessage("Enter All Fields")
         }
     }
   return (
+    <>
+    {toast&&<ToastMessage message={message}/>}
     <div className="relative w-full h-screen bg-black overflow-hidden">
         {/* Gradient Backgrounds */}
         <div className="absolute w-[1836.84px] h-[797.31px] left-[98.55px] top-[-402px] rotate-[8deg] bg-gradient-to-r from-[#4700FF] via-[#32AEC5] to-[#F2003E] blur-[300px]"></div>
@@ -79,6 +94,7 @@ const InvestmentSubmission = () => {
         </div>
        </div>
       </div>
+      </>
   )
 }
 

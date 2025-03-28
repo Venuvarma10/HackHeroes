@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";  // ✅ Import useNavigate
 import Header from "./HEADER.JSX";
 import homeImg from '../assets/home-img.jpg';
 import { ShopContext } from "./ContextAPI/ShopContext";
+import ToastMessage from "./ToastMessage";
 
 const Home = () => {
   const navigate = useNavigate();  // ✅ Use useNavigate() hook
@@ -10,26 +11,26 @@ const Home = () => {
 
   
   const [toast,setToast]=useState(false);
-  const [message,setMessage]=useState('');
+  const [message,setMessage]=useState('Close');
 
   const handleSubmit = () => {
     if (user?.token) {
       navigate('/investmentsubmission');  // ✅ Correct way to navigate
     } else {
       setToast(true);
-      setMessage("Please login to proceed");
+      setMessage("Please login to proceed!");
     }
   };
 
   useEffect(()=>{
       setTimeout(()=>{
           setToast(false);
-      },800)
+      },1000)
   },[toast])
 
   return (
     <>
-  
+      {toast&&<ToastMessage message={message}/>}
     <div className="relative w-full h-screen bg-black overflow-hidden">
       {/* Gradient Backgrounds */}
       <div className="absolute w-[1836.84px] h-[797.31px] left-[98.55px] top-[-402px] rotate-[8deg] origin-top-left bg-gradient-to-r from-[#4700FF] via-[#32AEC5] to-[#F2003E] blur-[300px]" />
