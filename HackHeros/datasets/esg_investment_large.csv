@@ -1,0 +1,1001 @@
+project_name,location,category,initial_capital,risk_factor,esg_score,priority,actual_capital
+Solar Plant A,Delhi,Solar,500000,2,85,1,520000
+Wind Farm B,Mumbai,Wind,750000,3,78,2,770000
+Hydro Project C,Bangalore,Hydro,600000,1,90,1,620000
+Geothermal D,Hyderabad,Geothermal,800000,4,74,3,850000
+BioEnergy E,Chennai,BioEnergy,550000,3,80,2,580000
+Solar Plant F,Kolkata,Solar,520000,2,87,1,530000
+Wind Farm G,Pune,Wind,770000,3,79,2,780000
+Hydro Project H,Ahmedabad,Hydro,620000,1,92,1,630000
+Geothermal I,Jaipur,Geothermal,850000,4,76,3,860000
+BioEnergy J,Lucknow,BioEnergy,580000,3,82,2,590000
+Solar Plant K,Indore,Solar,530000,1,89,1,540000
+Wind Farm L,Bhopal,Wind,780000,2,81,2,790000
+Hydro Project M,Visakhapatnam,Hydro,630000,1,94,1,640000
+Geothermal N,Surat,Geothermal,860000,5,73,3,870000
+BioEnergy O,Patna,BioEnergy,590000,2,83,2,600000
+Solar Plant P,Chandigarh,Solar,540000,2,86,1,550000
+Wind Farm Q,Nagpur,Wind,790000,4,77,2,800000
+Hydro Project R,Coimbatore,Hydro,640000,1,91,1,650000
+Geothermal S,Thiruvananthapuram,Geothermal,870000,3,75,3,880000
+BioEnergy T,Vadodara,BioEnergy,600000,3,79,2,610000
+Solar Plant A,Delhi,Solar,500000,2,85,1,520000
+Wind Farm B,Mumbai,Wind,750000,3,78,2,770000
+Hydro Project C,Bangalore,Hydro,600000,1,90,1,620000
+Geothermal D,Hyderabad,Geothermal,800000,4,74,3,850000
+BioEnergy E,Chennai,BioEnergy,550000,3,80,2,580000
+Solar Plant F,Kolkata,Solar,520000,2,87,1,530000
+Wind Farm G,Pune,Wind,770000,3,79,2,780000
+Hydro Project H,Ahmedabad,Hydro,620000,1,92,1,630000
+Geothermal I,Jaipur,Geothermal,850000,4,76,3,860000
+BioEnergy J,Lucknow,BioEnergy,580000,3,82,2,590000
+Solar Plant K,Indore,Solar,530000,1,89,1,540000
+Wind Farm L,Bhopal,Wind,780000,2,81,2,790000
+Hydro Project M,Visakhapatnam,Hydro,630000,1,94,1,640000
+Geothermal N,Surat,Geothermal,860000,5,73,3,870000
+BioEnergy O,Patna,BioEnergy,590000,2,83,2,600000
+Solar Plant P,Chandigarh,Solar,540000,2,86,1,550000
+Wind Farm Q,Nagpur,Wind,790000,4,77,2,800000
+Hydro Project R,Coimbatore,Hydro,640000,1,91,1,650000
+Geothermal S,Thiruvananthapuram,Geothermal,870000,3,75,3,880000
+BioEnergy T,Vadodara,BioEnergy,600000,3,79,2,610000
+Solar Plant A,Delhi,Solar,500000,2,85,1,520000
+Wind Farm B,Mumbai,Wind,750000,3,78,2,770000
+Hydro Project C,Bangalore,Hydro,600000,1,90,1,620000
+Geothermal D,Hyderabad,Geothermal,800000,4,74,3,850000
+BioEnergy E,Chennai,BioEnergy,550000,3,80,2,580000
+Solar Plant F,Kolkata,Solar,520000,2,87,1,530000
+Wind Farm G,Pune,Wind,770000,3,79,2,780000
+Hydro Project H,Ahmedabad,Hydro,620000,1,92,1,630000
+Geothermal I,Jaipur,Geothermal,850000,4,76,3,860000
+BioEnergy J,Lucknow,BioEnergy,580000,3,82,2,590000
+Solar Plant K,Indore,Solar,530000,1,89,1,540000
+Wind Farm L,Bhopal,Wind,780000,2,81,2,790000
+Hydro Project M,Visakhapatnam,Hydro,630000,1,94,1,640000
+Geothermal N,Surat,Geothermal,860000,5,73,3,870000
+BioEnergy O,Patna,BioEnergy,590000,2,83,2,600000
+Solar Plant P,Chandigarh,Solar,540000,2,86,1,550000
+Wind Farm Q,Nagpur,Wind,790000,4,77,2,800000
+Hydro Project R,Coimbatore,Hydro,640000,1,91,1,650000
+Geothermal S,Thiruvananthapuram,Geothermal,870000,3,75,3,880000
+BioEnergy T,Vadodara,BioEnergy,600000,3,79,2,610000
+Solar Plant A,Delhi,Solar,500000,2,85,1,520000
+Wind Farm B,Mumbai,Wind,750000,3,78,2,770000
+Hydro Project C,Bangalore,Hydro,600000,1,90,1,620000
+Geothermal D,Hyderabad,Geothermal,800000,4,74,3,850000
+BioEnergy E,Chennai,BioEnergy,550000,3,80,2,580000
+Solar Plant F,Kolkata,Solar,520000,2,87,1,530000
+Wind Farm G,Pune,Wind,770000,3,79,2,780000
+Hydro Project H,Ahmedabad,Hydro,620000,1,92,1,630000
+Geothermal I,Jaipur,Geothermal,850000,4,76,3,860000
+BioEnergy J,Lucknow,BioEnergy,580000,3,82,2,590000
+Solar Plant K,Indore,Solar,530000,1,89,1,540000
+Wind Farm L,Bhopal,Wind,780000,2,81,2,790000
+Hydro Project M,Visakhapatnam,Hydro,630000,1,94,1,640000
+Geothermal N,Surat,Geothermal,860000,5,73,3,870000
+BioEnergy O,Patna,BioEnergy,590000,2,83,2,600000
+Solar Plant P,Chandigarh,Solar,540000,2,86,1,550000
+Wind Farm Q,Nagpur,Wind,790000,4,77,2,800000
+Hydro Project R,Coimbatore,Hydro,640000,1,91,1,650000
+Geothermal S,Thiruvananthapuram,Geothermal,870000,3,75,3,880000
+BioEnergy T,Vadodara,BioEnergy,600000,3,79,2,610000
+Solar Plant A,Delhi,Solar,500000,2,85,1,520000
+Wind Farm B,Mumbai,Wind,750000,3,78,2,770000
+Hydro Project C,Bangalore,Hydro,600000,1,90,1,620000
+Geothermal D,Hyderabad,Geothermal,800000,4,74,3,850000
+BioEnergy E,Chennai,BioEnergy,550000,3,80,2,580000
+Solar Plant F,Kolkata,Solar,520000,2,87,1,530000
+Wind Farm G,Pune,Wind,770000,3,79,2,780000
+Hydro Project H,Ahmedabad,Hydro,620000,1,92,1,630000
+Geothermal I,Jaipur,Geothermal,850000,4,76,3,860000
+BioEnergy J,Lucknow,BioEnergy,580000,3,82,2,590000
+Solar Plant K,Indore,Solar,530000,1,89,1,540000
+Wind Farm L,Bhopal,Wind,780000,2,81,2,790000
+Hydro Project M,Visakhapatnam,Hydro,630000,1,94,1,640000
+Geothermal N,Surat,Geothermal,860000,5,73,3,870000
+BioEnergy O,Patna,BioEnergy,590000,2,83,2,600000
+Solar Plant P,Chandigarh,Solar,540000,2,86,1,550000
+Wind Farm Q,Nagpur,Wind,790000,4,77,2,800000
+Hydro Project R,Coimbatore,Hydro,640000,1,91,1,650000
+Geothermal S,Thiruvananthapuram,Geothermal,870000,3,75,3,880000
+BioEnergy T,Vadodara,BioEnergy,600000,3,79,2,610000
+Solar Plant A,Delhi,Solar,500000,2,85,1,520000
+Wind Farm B,Mumbai,Wind,750000,3,78,2,770000
+Hydro Project C,Bangalore,Hydro,600000,1,90,1,620000
+Geothermal D,Hyderabad,Geothermal,800000,4,74,3,850000
+BioEnergy E,Chennai,BioEnergy,550000,3,80,2,580000
+Solar Plant F,Kolkata,Solar,520000,2,87,1,530000
+Wind Farm G,Pune,Wind,770000,3,79,2,780000
+Hydro Project H,Ahmedabad,Hydro,620000,1,92,1,630000
+Geothermal I,Jaipur,Geothermal,850000,4,76,3,860000
+BioEnergy J,Lucknow,BioEnergy,580000,3,82,2,590000
+Solar Plant K,Indore,Solar,530000,1,89,1,540000
+Wind Farm L,Bhopal,Wind,780000,2,81,2,790000
+Hydro Project M,Visakhapatnam,Hydro,630000,1,94,1,640000
+Geothermal N,Surat,Geothermal,860000,5,73,3,870000
+BioEnergy O,Patna,BioEnergy,590000,2,83,2,600000
+Solar Plant P,Chandigarh,Solar,540000,2,86,1,550000
+Wind Farm Q,Nagpur,Wind,790000,4,77,2,800000
+Hydro Project R,Coimbatore,Hydro,640000,1,91,1,650000
+Geothermal S,Thiruvananthapuram,Geothermal,870000,3,75,3,880000
+BioEnergy T,Vadodara,BioEnergy,600000,3,79,2,610000
+Solar Plant A,Delhi,Solar,500000,2,85,1,520000
+Wind Farm B,Mumbai,Wind,750000,3,78,2,770000
+Hydro Project C,Bangalore,Hydro,600000,1,90,1,620000
+Geothermal D,Hyderabad,Geothermal,800000,4,74,3,850000
+BioEnergy E,Chennai,BioEnergy,550000,3,80,2,580000
+Solar Plant F,Kolkata,Solar,520000,2,87,1,530000
+Wind Farm G,Pune,Wind,770000,3,79,2,780000
+Hydro Project H,Ahmedabad,Hydro,620000,1,92,1,630000
+Geothermal I,Jaipur,Geothermal,850000,4,76,3,860000
+BioEnergy J,Lucknow,BioEnergy,580000,3,82,2,590000
+Solar Plant K,Indore,Solar,530000,1,89,1,540000
+Wind Farm L,Bhopal,Wind,780000,2,81,2,790000
+Hydro Project M,Visakhapatnam,Hydro,630000,1,94,1,640000
+Geothermal N,Surat,Geothermal,860000,5,73,3,870000
+BioEnergy O,Patna,BioEnergy,590000,2,83,2,600000
+Solar Plant P,Chandigarh,Solar,540000,2,86,1,550000
+Wind Farm Q,Nagpur,Wind,790000,4,77,2,800000
+Hydro Project R,Coimbatore,Hydro,640000,1,91,1,650000
+Geothermal S,Thiruvananthapuram,Geothermal,870000,3,75,3,880000
+BioEnergy T,Vadodara,BioEnergy,600000,3,79,2,610000
+Solar Plant A,Delhi,Solar,500000,2,85,1,520000
+Wind Farm B,Mumbai,Wind,750000,3,78,2,770000
+Hydro Project C,Bangalore,Hydro,600000,1,90,1,620000
+Geothermal D,Hyderabad,Geothermal,800000,4,74,3,850000
+BioEnergy E,Chennai,BioEnergy,550000,3,80,2,580000
+Solar Plant F,Kolkata,Solar,520000,2,87,1,530000
+Wind Farm G,Pune,Wind,770000,3,79,2,780000
+Hydro Project H,Ahmedabad,Hydro,620000,1,92,1,630000
+Geothermal I,Jaipur,Geothermal,850000,4,76,3,860000
+BioEnergy J,Lucknow,BioEnergy,580000,3,82,2,590000
+Solar Plant K,Indore,Solar,530000,1,89,1,540000
+Wind Farm L,Bhopal,Wind,780000,2,81,2,790000
+Hydro Project M,Visakhapatnam,Hydro,630000,1,94,1,640000
+Geothermal N,Surat,Geothermal,860000,5,73,3,870000
+BioEnergy O,Patna,BioEnergy,590000,2,83,2,600000
+Solar Plant P,Chandigarh,Solar,540000,2,86,1,550000
+Wind Farm Q,Nagpur,Wind,790000,4,77,2,800000
+Hydro Project R,Coimbatore,Hydro,640000,1,91,1,650000
+Geothermal S,Thiruvananthapuram,Geothermal,870000,3,75,3,880000
+BioEnergy T,Vadodara,BioEnergy,600000,3,79,2,610000
+Solar Plant A,Delhi,Solar,500000,2,85,1,520000
+Wind Farm B,Mumbai,Wind,750000,3,78,2,770000
+Hydro Project C,Bangalore,Hydro,600000,1,90,1,620000
+Geothermal D,Hyderabad,Geothermal,800000,4,74,3,850000
+BioEnergy E,Chennai,BioEnergy,550000,3,80,2,580000
+Solar Plant F,Kolkata,Solar,520000,2,87,1,530000
+Wind Farm G,Pune,Wind,770000,3,79,2,780000
+Hydro Project H,Ahmedabad,Hydro,620000,1,92,1,630000
+Geothermal I,Jaipur,Geothermal,850000,4,76,3,860000
+BioEnergy J,Lucknow,BioEnergy,580000,3,82,2,590000
+Solar Plant K,Indore,Solar,530000,1,89,1,540000
+Wind Farm L,Bhopal,Wind,780000,2,81,2,790000
+Hydro Project M,Visakhapatnam,Hydro,630000,1,94,1,640000
+Geothermal N,Surat,Geothermal,860000,5,73,3,870000
+BioEnergy O,Patna,BioEnergy,590000,2,83,2,600000
+Solar Plant P,Chandigarh,Solar,540000,2,86,1,550000
+Wind Farm Q,Nagpur,Wind,790000,4,77,2,800000
+Hydro Project R,Coimbatore,Hydro,640000,1,91,1,650000
+Geothermal S,Thiruvananthapuram,Geothermal,870000,3,75,3,880000
+BioEnergy T,Vadodara,BioEnergy,600000,3,79,2,610000
+Solar Plant A,Delhi,Solar,500000,2,85,1,520000
+Wind Farm B,Mumbai,Wind,750000,3,78,2,770000
+Hydro Project C,Bangalore,Hydro,600000,1,90,1,620000
+Geothermal D,Hyderabad,Geothermal,800000,4,74,3,850000
+BioEnergy E,Chennai,BioEnergy,550000,3,80,2,580000
+Solar Plant F,Kolkata,Solar,520000,2,87,1,530000
+Wind Farm G,Pune,Wind,770000,3,79,2,780000
+Hydro Project H,Ahmedabad,Hydro,620000,1,92,1,630000
+Geothermal I,Jaipur,Geothermal,850000,4,76,3,860000
+BioEnergy J,Lucknow,BioEnergy,580000,3,82,2,590000
+Solar Plant K,Indore,Solar,530000,1,89,1,540000
+Wind Farm L,Bhopal,Wind,780000,2,81,2,790000
+Hydro Project M,Visakhapatnam,Hydro,630000,1,94,1,640000
+Geothermal N,Surat,Geothermal,860000,5,73,3,870000
+BioEnergy O,Patna,BioEnergy,590000,2,83,2,600000
+Solar Plant P,Chandigarh,Solar,540000,2,86,1,550000
+Wind Farm Q,Nagpur,Wind,790000,4,77,2,800000
+Hydro Project R,Coimbatore,Hydro,640000,1,91,1,650000
+Geothermal S,Thiruvananthapuram,Geothermal,870000,3,75,3,880000
+BioEnergy T,Vadodara,BioEnergy,600000,3,79,2,610000
+Solar Plant A,Delhi,Solar,500000,2,85,1,520000
+Wind Farm B,Mumbai,Wind,750000,3,78,2,770000
+Hydro Project C,Bangalore,Hydro,600000,1,90,1,620000
+Geothermal D,Hyderabad,Geothermal,800000,4,74,3,850000
+BioEnergy E,Chennai,BioEnergy,550000,3,80,2,580000
+Solar Plant F,Kolkata,Solar,520000,2,87,1,530000
+Wind Farm G,Pune,Wind,770000,3,79,2,780000
+Hydro Project H,Ahmedabad,Hydro,620000,1,92,1,630000
+Geothermal I,Jaipur,Geothermal,850000,4,76,3,860000
+BioEnergy J,Lucknow,BioEnergy,580000,3,82,2,590000
+Solar Plant K,Indore,Solar,530000,1,89,1,540000
+Wind Farm L,Bhopal,Wind,780000,2,81,2,790000
+Hydro Project M,Visakhapatnam,Hydro,630000,1,94,1,640000
+Geothermal N,Surat,Geothermal,860000,5,73,3,870000
+BioEnergy O,Patna,BioEnergy,590000,2,83,2,600000
+Solar Plant P,Chandigarh,Solar,540000,2,86,1,550000
+Wind Farm Q,Nagpur,Wind,790000,4,77,2,800000
+Hydro Project R,Coimbatore,Hydro,640000,1,91,1,650000
+Geothermal S,Thiruvananthapuram,Geothermal,870000,3,75,3,880000
+BioEnergy T,Vadodara,BioEnergy,600000,3,79,2,610000
+Solar Plant A,Delhi,Solar,500000,2,85,1,520000
+Wind Farm B,Mumbai,Wind,750000,3,78,2,770000
+Hydro Project C,Bangalore,Hydro,600000,1,90,1,620000
+Geothermal D,Hyderabad,Geothermal,800000,4,74,3,850000
+BioEnergy E,Chennai,BioEnergy,550000,3,80,2,580000
+Solar Plant F,Kolkata,Solar,520000,2,87,1,530000
+Wind Farm G,Pune,Wind,770000,3,79,2,780000
+Hydro Project H,Ahmedabad,Hydro,620000,1,92,1,630000
+Geothermal I,Jaipur,Geothermal,850000,4,76,3,860000
+BioEnergy J,Lucknow,BioEnergy,580000,3,82,2,590000
+Solar Plant K,Indore,Solar,530000,1,89,1,540000
+Wind Farm L,Bhopal,Wind,780000,2,81,2,790000
+Hydro Project M,Visakhapatnam,Hydro,630000,1,94,1,640000
+Geothermal N,Surat,Geothermal,860000,5,73,3,870000
+BioEnergy O,Patna,BioEnergy,590000,2,83,2,600000
+Solar Plant P,Chandigarh,Solar,540000,2,86,1,550000
+Wind Farm Q,Nagpur,Wind,790000,4,77,2,800000
+Hydro Project R,Coimbatore,Hydro,640000,1,91,1,650000
+Geothermal S,Thiruvananthapuram,Geothermal,870000,3,75,3,880000
+BioEnergy T,Vadodara,BioEnergy,600000,3,79,2,610000
+Solar Plant A,Delhi,Solar,500000,2,85,1,520000
+Wind Farm B,Mumbai,Wind,750000,3,78,2,770000
+Hydro Project C,Bangalore,Hydro,600000,1,90,1,620000
+Geothermal D,Hyderabad,Geothermal,800000,4,74,3,850000
+BioEnergy E,Chennai,BioEnergy,550000,3,80,2,580000
+Solar Plant F,Kolkata,Solar,520000,2,87,1,530000
+Wind Farm G,Pune,Wind,770000,3,79,2,780000
+Hydro Project H,Ahmedabad,Hydro,620000,1,92,1,630000
+Geothermal I,Jaipur,Geothermal,850000,4,76,3,860000
+BioEnergy J,Lucknow,BioEnergy,580000,3,82,2,590000
+Solar Plant K,Indore,Solar,530000,1,89,1,540000
+Wind Farm L,Bhopal,Wind,780000,2,81,2,790000
+Hydro Project M,Visakhapatnam,Hydro,630000,1,94,1,640000
+Geothermal N,Surat,Geothermal,860000,5,73,3,870000
+BioEnergy O,Patna,BioEnergy,590000,2,83,2,600000
+Solar Plant P,Chandigarh,Solar,540000,2,86,1,550000
+Wind Farm Q,Nagpur,Wind,790000,4,77,2,800000
+Hydro Project R,Coimbatore,Hydro,640000,1,91,1,650000
+Geothermal S,Thiruvananthapuram,Geothermal,870000,3,75,3,880000
+BioEnergy T,Vadodara,BioEnergy,600000,3,79,2,610000
+Solar Plant A,Delhi,Solar,500000,2,85,1,520000
+Wind Farm B,Mumbai,Wind,750000,3,78,2,770000
+Hydro Project C,Bangalore,Hydro,600000,1,90,1,620000
+Geothermal D,Hyderabad,Geothermal,800000,4,74,3,850000
+BioEnergy E,Chennai,BioEnergy,550000,3,80,2,580000
+Solar Plant F,Kolkata,Solar,520000,2,87,1,530000
+Wind Farm G,Pune,Wind,770000,3,79,2,780000
+Hydro Project H,Ahmedabad,Hydro,620000,1,92,1,630000
+Geothermal I,Jaipur,Geothermal,850000,4,76,3,860000
+BioEnergy J,Lucknow,BioEnergy,580000,3,82,2,590000
+Solar Plant K,Indore,Solar,530000,1,89,1,540000
+Wind Farm L,Bhopal,Wind,780000,2,81,2,790000
+Hydro Project M,Visakhapatnam,Hydro,630000,1,94,1,640000
+Geothermal N,Surat,Geothermal,860000,5,73,3,870000
+BioEnergy O,Patna,BioEnergy,590000,2,83,2,600000
+Solar Plant P,Chandigarh,Solar,540000,2,86,1,550000
+Wind Farm Q,Nagpur,Wind,790000,4,77,2,800000
+Hydro Project R,Coimbatore,Hydro,640000,1,91,1,650000
+Geothermal S,Thiruvananthapuram,Geothermal,870000,3,75,3,880000
+BioEnergy T,Vadodara,BioEnergy,600000,3,79,2,610000
+Solar Plant A,Delhi,Solar,500000,2,85,1,520000
+Wind Farm B,Mumbai,Wind,750000,3,78,2,770000
+Hydro Project C,Bangalore,Hydro,600000,1,90,1,620000
+Geothermal D,Hyderabad,Geothermal,800000,4,74,3,850000
+BioEnergy E,Chennai,BioEnergy,550000,3,80,2,580000
+Solar Plant F,Kolkata,Solar,520000,2,87,1,530000
+Wind Farm G,Pune,Wind,770000,3,79,2,780000
+Hydro Project H,Ahmedabad,Hydro,620000,1,92,1,630000
+Geothermal I,Jaipur,Geothermal,850000,4,76,3,860000
+BioEnergy J,Lucknow,BioEnergy,580000,3,82,2,590000
+Solar Plant K,Indore,Solar,530000,1,89,1,540000
+Wind Farm L,Bhopal,Wind,780000,2,81,2,790000
+Hydro Project M,Visakhapatnam,Hydro,630000,1,94,1,640000
+Geothermal N,Surat,Geothermal,860000,5,73,3,870000
+BioEnergy O,Patna,BioEnergy,590000,2,83,2,600000
+Solar Plant P,Chandigarh,Solar,540000,2,86,1,550000
+Wind Farm Q,Nagpur,Wind,790000,4,77,2,800000
+Hydro Project R,Coimbatore,Hydro,640000,1,91,1,650000
+Geothermal S,Thiruvananthapuram,Geothermal,870000,3,75,3,880000
+BioEnergy T,Vadodara,BioEnergy,600000,3,79,2,610000
+Solar Plant A,Delhi,Solar,500000,2,85,1,520000
+Wind Farm B,Mumbai,Wind,750000,3,78,2,770000
+Hydro Project C,Bangalore,Hydro,600000,1,90,1,620000
+Geothermal D,Hyderabad,Geothermal,800000,4,74,3,850000
+BioEnergy E,Chennai,BioEnergy,550000,3,80,2,580000
+Solar Plant F,Kolkata,Solar,520000,2,87,1,530000
+Wind Farm G,Pune,Wind,770000,3,79,2,780000
+Hydro Project H,Ahmedabad,Hydro,620000,1,92,1,630000
+Geothermal I,Jaipur,Geothermal,850000,4,76,3,860000
+BioEnergy J,Lucknow,BioEnergy,580000,3,82,2,590000
+Solar Plant K,Indore,Solar,530000,1,89,1,540000
+Wind Farm L,Bhopal,Wind,780000,2,81,2,790000
+Hydro Project M,Visakhapatnam,Hydro,630000,1,94,1,640000
+Geothermal N,Surat,Geothermal,860000,5,73,3,870000
+BioEnergy O,Patna,BioEnergy,590000,2,83,2,600000
+Solar Plant P,Chandigarh,Solar,540000,2,86,1,550000
+Wind Farm Q,Nagpur,Wind,790000,4,77,2,800000
+Hydro Project R,Coimbatore,Hydro,640000,1,91,1,650000
+Geothermal S,Thiruvananthapuram,Geothermal,870000,3,75,3,880000
+BioEnergy T,Vadodara,BioEnergy,600000,3,79,2,610000
+Solar Plant A,Delhi,Solar,500000,2,85,1,520000
+Wind Farm B,Mumbai,Wind,750000,3,78,2,770000
+Hydro Project C,Bangalore,Hydro,600000,1,90,1,620000
+Geothermal D,Hyderabad,Geothermal,800000,4,74,3,850000
+BioEnergy E,Chennai,BioEnergy,550000,3,80,2,580000
+Solar Plant F,Kolkata,Solar,520000,2,87,1,530000
+Wind Farm G,Pune,Wind,770000,3,79,2,780000
+Hydro Project H,Ahmedabad,Hydro,620000,1,92,1,630000
+Geothermal I,Jaipur,Geothermal,850000,4,76,3,860000
+BioEnergy J,Lucknow,BioEnergy,580000,3,82,2,590000
+Solar Plant K,Indore,Solar,530000,1,89,1,540000
+Wind Farm L,Bhopal,Wind,780000,2,81,2,790000
+Hydro Project M,Visakhapatnam,Hydro,630000,1,94,1,640000
+Geothermal N,Surat,Geothermal,860000,5,73,3,870000
+BioEnergy O,Patna,BioEnergy,590000,2,83,2,600000
+Solar Plant P,Chandigarh,Solar,540000,2,86,1,550000
+Wind Farm Q,Nagpur,Wind,790000,4,77,2,800000
+Hydro Project R,Coimbatore,Hydro,640000,1,91,1,650000
+Geothermal S,Thiruvananthapuram,Geothermal,870000,3,75,3,880000
+BioEnergy T,Vadodara,BioEnergy,600000,3,79,2,610000
+Solar Plant A,Delhi,Solar,500000,2,85,1,520000
+Wind Farm B,Mumbai,Wind,750000,3,78,2,770000
+Hydro Project C,Bangalore,Hydro,600000,1,90,1,620000
+Geothermal D,Hyderabad,Geothermal,800000,4,74,3,850000
+BioEnergy E,Chennai,BioEnergy,550000,3,80,2,580000
+Solar Plant F,Kolkata,Solar,520000,2,87,1,530000
+Wind Farm G,Pune,Wind,770000,3,79,2,780000
+Hydro Project H,Ahmedabad,Hydro,620000,1,92,1,630000
+Geothermal I,Jaipur,Geothermal,850000,4,76,3,860000
+BioEnergy J,Lucknow,BioEnergy,580000,3,82,2,590000
+Solar Plant K,Indore,Solar,530000,1,89,1,540000
+Wind Farm L,Bhopal,Wind,780000,2,81,2,790000
+Hydro Project M,Visakhapatnam,Hydro,630000,1,94,1,640000
+Geothermal N,Surat,Geothermal,860000,5,73,3,870000
+BioEnergy O,Patna,BioEnergy,590000,2,83,2,600000
+Solar Plant P,Chandigarh,Solar,540000,2,86,1,550000
+Wind Farm Q,Nagpur,Wind,790000,4,77,2,800000
+Hydro Project R,Coimbatore,Hydro,640000,1,91,1,650000
+Geothermal S,Thiruvananthapuram,Geothermal,870000,3,75,3,880000
+BioEnergy T,Vadodara,BioEnergy,600000,3,79,2,610000
+Solar Plant A,Delhi,Solar,500000,2,85,1,520000
+Wind Farm B,Mumbai,Wind,750000,3,78,2,770000
+Hydro Project C,Bangalore,Hydro,600000,1,90,1,620000
+Geothermal D,Hyderabad,Geothermal,800000,4,74,3,850000
+BioEnergy E,Chennai,BioEnergy,550000,3,80,2,580000
+Solar Plant F,Kolkata,Solar,520000,2,87,1,530000
+Wind Farm G,Pune,Wind,770000,3,79,2,780000
+Hydro Project H,Ahmedabad,Hydro,620000,1,92,1,630000
+Geothermal I,Jaipur,Geothermal,850000,4,76,3,860000
+BioEnergy J,Lucknow,BioEnergy,580000,3,82,2,590000
+Solar Plant K,Indore,Solar,530000,1,89,1,540000
+Wind Farm L,Bhopal,Wind,780000,2,81,2,790000
+Hydro Project M,Visakhapatnam,Hydro,630000,1,94,1,640000
+Geothermal N,Surat,Geothermal,860000,5,73,3,870000
+BioEnergy O,Patna,BioEnergy,590000,2,83,2,600000
+Solar Plant P,Chandigarh,Solar,540000,2,86,1,550000
+Wind Farm Q,Nagpur,Wind,790000,4,77,2,800000
+Hydro Project R,Coimbatore,Hydro,640000,1,91,1,650000
+Geothermal S,Thiruvananthapuram,Geothermal,870000,3,75,3,880000
+BioEnergy T,Vadodara,BioEnergy,600000,3,79,2,610000
+Solar Plant A,Delhi,Solar,500000,2,85,1,520000
+Wind Farm B,Mumbai,Wind,750000,3,78,2,770000
+Hydro Project C,Bangalore,Hydro,600000,1,90,1,620000
+Geothermal D,Hyderabad,Geothermal,800000,4,74,3,850000
+BioEnergy E,Chennai,BioEnergy,550000,3,80,2,580000
+Solar Plant F,Kolkata,Solar,520000,2,87,1,530000
+Wind Farm G,Pune,Wind,770000,3,79,2,780000
+Hydro Project H,Ahmedabad,Hydro,620000,1,92,1,630000
+Geothermal I,Jaipur,Geothermal,850000,4,76,3,860000
+BioEnergy J,Lucknow,BioEnergy,580000,3,82,2,590000
+Solar Plant K,Indore,Solar,530000,1,89,1,540000
+Wind Farm L,Bhopal,Wind,780000,2,81,2,790000
+Hydro Project M,Visakhapatnam,Hydro,630000,1,94,1,640000
+Geothermal N,Surat,Geothermal,860000,5,73,3,870000
+BioEnergy O,Patna,BioEnergy,590000,2,83,2,600000
+Solar Plant P,Chandigarh,Solar,540000,2,86,1,550000
+Wind Farm Q,Nagpur,Wind,790000,4,77,2,800000
+Hydro Project R,Coimbatore,Hydro,640000,1,91,1,650000
+Geothermal S,Thiruvananthapuram,Geothermal,870000,3,75,3,880000
+BioEnergy T,Vadodara,BioEnergy,600000,3,79,2,610000
+Solar Plant A,Delhi,Solar,500000,2,85,1,520000
+Wind Farm B,Mumbai,Wind,750000,3,78,2,770000
+Hydro Project C,Bangalore,Hydro,600000,1,90,1,620000
+Geothermal D,Hyderabad,Geothermal,800000,4,74,3,850000
+BioEnergy E,Chennai,BioEnergy,550000,3,80,2,580000
+Solar Plant F,Kolkata,Solar,520000,2,87,1,530000
+Wind Farm G,Pune,Wind,770000,3,79,2,780000
+Hydro Project H,Ahmedabad,Hydro,620000,1,92,1,630000
+Geothermal I,Jaipur,Geothermal,850000,4,76,3,860000
+BioEnergy J,Lucknow,BioEnergy,580000,3,82,2,590000
+Solar Plant K,Indore,Solar,530000,1,89,1,540000
+Wind Farm L,Bhopal,Wind,780000,2,81,2,790000
+Hydro Project M,Visakhapatnam,Hydro,630000,1,94,1,640000
+Geothermal N,Surat,Geothermal,860000,5,73,3,870000
+BioEnergy O,Patna,BioEnergy,590000,2,83,2,600000
+Solar Plant P,Chandigarh,Solar,540000,2,86,1,550000
+Wind Farm Q,Nagpur,Wind,790000,4,77,2,800000
+Hydro Project R,Coimbatore,Hydro,640000,1,91,1,650000
+Geothermal S,Thiruvananthapuram,Geothermal,870000,3,75,3,880000
+BioEnergy T,Vadodara,BioEnergy,600000,3,79,2,610000
+Solar Plant A,Delhi,Solar,500000,2,85,1,520000
+Wind Farm B,Mumbai,Wind,750000,3,78,2,770000
+Hydro Project C,Bangalore,Hydro,600000,1,90,1,620000
+Geothermal D,Hyderabad,Geothermal,800000,4,74,3,850000
+BioEnergy E,Chennai,BioEnergy,550000,3,80,2,580000
+Solar Plant F,Kolkata,Solar,520000,2,87,1,530000
+Wind Farm G,Pune,Wind,770000,3,79,2,780000
+Hydro Project H,Ahmedabad,Hydro,620000,1,92,1,630000
+Geothermal I,Jaipur,Geothermal,850000,4,76,3,860000
+BioEnergy J,Lucknow,BioEnergy,580000,3,82,2,590000
+Solar Plant K,Indore,Solar,530000,1,89,1,540000
+Wind Farm L,Bhopal,Wind,780000,2,81,2,790000
+Hydro Project M,Visakhapatnam,Hydro,630000,1,94,1,640000
+Geothermal N,Surat,Geothermal,860000,5,73,3,870000
+BioEnergy O,Patna,BioEnergy,590000,2,83,2,600000
+Solar Plant P,Chandigarh,Solar,540000,2,86,1,550000
+Wind Farm Q,Nagpur,Wind,790000,4,77,2,800000
+Hydro Project R,Coimbatore,Hydro,640000,1,91,1,650000
+Geothermal S,Thiruvananthapuram,Geothermal,870000,3,75,3,880000
+BioEnergy T,Vadodara,BioEnergy,600000,3,79,2,610000
+Solar Plant A,Delhi,Solar,500000,2,85,1,520000
+Wind Farm B,Mumbai,Wind,750000,3,78,2,770000
+Hydro Project C,Bangalore,Hydro,600000,1,90,1,620000
+Geothermal D,Hyderabad,Geothermal,800000,4,74,3,850000
+BioEnergy E,Chennai,BioEnergy,550000,3,80,2,580000
+Solar Plant F,Kolkata,Solar,520000,2,87,1,530000
+Wind Farm G,Pune,Wind,770000,3,79,2,780000
+Hydro Project H,Ahmedabad,Hydro,620000,1,92,1,630000
+Geothermal I,Jaipur,Geothermal,850000,4,76,3,860000
+BioEnergy J,Lucknow,BioEnergy,580000,3,82,2,590000
+Solar Plant K,Indore,Solar,530000,1,89,1,540000
+Wind Farm L,Bhopal,Wind,780000,2,81,2,790000
+Hydro Project M,Visakhapatnam,Hydro,630000,1,94,1,640000
+Geothermal N,Surat,Geothermal,860000,5,73,3,870000
+BioEnergy O,Patna,BioEnergy,590000,2,83,2,600000
+Solar Plant P,Chandigarh,Solar,540000,2,86,1,550000
+Wind Farm Q,Nagpur,Wind,790000,4,77,2,800000
+Hydro Project R,Coimbatore,Hydro,640000,1,91,1,650000
+Geothermal S,Thiruvananthapuram,Geothermal,870000,3,75,3,880000
+BioEnergy T,Vadodara,BioEnergy,600000,3,79,2,610000
+Solar Plant A,Delhi,Solar,500000,2,85,1,520000
+Wind Farm B,Mumbai,Wind,750000,3,78,2,770000
+Hydro Project C,Bangalore,Hydro,600000,1,90,1,620000
+Geothermal D,Hyderabad,Geothermal,800000,4,74,3,850000
+BioEnergy E,Chennai,BioEnergy,550000,3,80,2,580000
+Solar Plant F,Kolkata,Solar,520000,2,87,1,530000
+Wind Farm G,Pune,Wind,770000,3,79,2,780000
+Hydro Project H,Ahmedabad,Hydro,620000,1,92,1,630000
+Geothermal I,Jaipur,Geothermal,850000,4,76,3,860000
+BioEnergy J,Lucknow,BioEnergy,580000,3,82,2,590000
+Solar Plant K,Indore,Solar,530000,1,89,1,540000
+Wind Farm L,Bhopal,Wind,780000,2,81,2,790000
+Hydro Project M,Visakhapatnam,Hydro,630000,1,94,1,640000
+Geothermal N,Surat,Geothermal,860000,5,73,3,870000
+BioEnergy O,Patna,BioEnergy,590000,2,83,2,600000
+Solar Plant P,Chandigarh,Solar,540000,2,86,1,550000
+Wind Farm Q,Nagpur,Wind,790000,4,77,2,800000
+Hydro Project R,Coimbatore,Hydro,640000,1,91,1,650000
+Geothermal S,Thiruvananthapuram,Geothermal,870000,3,75,3,880000
+BioEnergy T,Vadodara,BioEnergy,600000,3,79,2,610000
+Solar Plant A,Delhi,Solar,500000,2,85,1,520000
+Wind Farm B,Mumbai,Wind,750000,3,78,2,770000
+Hydro Project C,Bangalore,Hydro,600000,1,90,1,620000
+Geothermal D,Hyderabad,Geothermal,800000,4,74,3,850000
+BioEnergy E,Chennai,BioEnergy,550000,3,80,2,580000
+Solar Plant F,Kolkata,Solar,520000,2,87,1,530000
+Wind Farm G,Pune,Wind,770000,3,79,2,780000
+Hydro Project H,Ahmedabad,Hydro,620000,1,92,1,630000
+Geothermal I,Jaipur,Geothermal,850000,4,76,3,860000
+BioEnergy J,Lucknow,BioEnergy,580000,3,82,2,590000
+Solar Plant K,Indore,Solar,530000,1,89,1,540000
+Wind Farm L,Bhopal,Wind,780000,2,81,2,790000
+Hydro Project M,Visakhapatnam,Hydro,630000,1,94,1,640000
+Geothermal N,Surat,Geothermal,860000,5,73,3,870000
+BioEnergy O,Patna,BioEnergy,590000,2,83,2,600000
+Solar Plant P,Chandigarh,Solar,540000,2,86,1,550000
+Wind Farm Q,Nagpur,Wind,790000,4,77,2,800000
+Hydro Project R,Coimbatore,Hydro,640000,1,91,1,650000
+Geothermal S,Thiruvananthapuram,Geothermal,870000,3,75,3,880000
+BioEnergy T,Vadodara,BioEnergy,600000,3,79,2,610000
+Solar Plant A,Delhi,Solar,500000,2,85,1,520000
+Wind Farm B,Mumbai,Wind,750000,3,78,2,770000
+Hydro Project C,Bangalore,Hydro,600000,1,90,1,620000
+Geothermal D,Hyderabad,Geothermal,800000,4,74,3,850000
+BioEnergy E,Chennai,BioEnergy,550000,3,80,2,580000
+Solar Plant F,Kolkata,Solar,520000,2,87,1,530000
+Wind Farm G,Pune,Wind,770000,3,79,2,780000
+Hydro Project H,Ahmedabad,Hydro,620000,1,92,1,630000
+Geothermal I,Jaipur,Geothermal,850000,4,76,3,860000
+BioEnergy J,Lucknow,BioEnergy,580000,3,82,2,590000
+Solar Plant K,Indore,Solar,530000,1,89,1,540000
+Wind Farm L,Bhopal,Wind,780000,2,81,2,790000
+Hydro Project M,Visakhapatnam,Hydro,630000,1,94,1,640000
+Geothermal N,Surat,Geothermal,860000,5,73,3,870000
+BioEnergy O,Patna,BioEnergy,590000,2,83,2,600000
+Solar Plant P,Chandigarh,Solar,540000,2,86,1,550000
+Wind Farm Q,Nagpur,Wind,790000,4,77,2,800000
+Hydro Project R,Coimbatore,Hydro,640000,1,91,1,650000
+Geothermal S,Thiruvananthapuram,Geothermal,870000,3,75,3,880000
+BioEnergy T,Vadodara,BioEnergy,600000,3,79,2,610000
+Solar Plant A,Delhi,Solar,500000,2,85,1,520000
+Wind Farm B,Mumbai,Wind,750000,3,78,2,770000
+Hydro Project C,Bangalore,Hydro,600000,1,90,1,620000
+Geothermal D,Hyderabad,Geothermal,800000,4,74,3,850000
+BioEnergy E,Chennai,BioEnergy,550000,3,80,2,580000
+Solar Plant F,Kolkata,Solar,520000,2,87,1,530000
+Wind Farm G,Pune,Wind,770000,3,79,2,780000
+Hydro Project H,Ahmedabad,Hydro,620000,1,92,1,630000
+Geothermal I,Jaipur,Geothermal,850000,4,76,3,860000
+BioEnergy J,Lucknow,BioEnergy,580000,3,82,2,590000
+Solar Plant K,Indore,Solar,530000,1,89,1,540000
+Wind Farm L,Bhopal,Wind,780000,2,81,2,790000
+Hydro Project M,Visakhapatnam,Hydro,630000,1,94,1,640000
+Geothermal N,Surat,Geothermal,860000,5,73,3,870000
+BioEnergy O,Patna,BioEnergy,590000,2,83,2,600000
+Solar Plant P,Chandigarh,Solar,540000,2,86,1,550000
+Wind Farm Q,Nagpur,Wind,790000,4,77,2,800000
+Hydro Project R,Coimbatore,Hydro,640000,1,91,1,650000
+Geothermal S,Thiruvananthapuram,Geothermal,870000,3,75,3,880000
+BioEnergy T,Vadodara,BioEnergy,600000,3,79,2,610000
+Solar Plant A,Delhi,Solar,500000,2,85,1,520000
+Wind Farm B,Mumbai,Wind,750000,3,78,2,770000
+Hydro Project C,Bangalore,Hydro,600000,1,90,1,620000
+Geothermal D,Hyderabad,Geothermal,800000,4,74,3,850000
+BioEnergy E,Chennai,BioEnergy,550000,3,80,2,580000
+Solar Plant F,Kolkata,Solar,520000,2,87,1,530000
+Wind Farm G,Pune,Wind,770000,3,79,2,780000
+Hydro Project H,Ahmedabad,Hydro,620000,1,92,1,630000
+Geothermal I,Jaipur,Geothermal,850000,4,76,3,860000
+BioEnergy J,Lucknow,BioEnergy,580000,3,82,2,590000
+Solar Plant K,Indore,Solar,530000,1,89,1,540000
+Wind Farm L,Bhopal,Wind,780000,2,81,2,790000
+Hydro Project M,Visakhapatnam,Hydro,630000,1,94,1,640000
+Geothermal N,Surat,Geothermal,860000,5,73,3,870000
+BioEnergy O,Patna,BioEnergy,590000,2,83,2,600000
+Solar Plant P,Chandigarh,Solar,540000,2,86,1,550000
+Wind Farm Q,Nagpur,Wind,790000,4,77,2,800000
+Hydro Project R,Coimbatore,Hydro,640000,1,91,1,650000
+Geothermal S,Thiruvananthapuram,Geothermal,870000,3,75,3,880000
+BioEnergy T,Vadodara,BioEnergy,600000,3,79,2,610000
+Solar Plant A,Delhi,Solar,500000,2,85,1,520000
+Wind Farm B,Mumbai,Wind,750000,3,78,2,770000
+Hydro Project C,Bangalore,Hydro,600000,1,90,1,620000
+Geothermal D,Hyderabad,Geothermal,800000,4,74,3,850000
+BioEnergy E,Chennai,BioEnergy,550000,3,80,2,580000
+Solar Plant F,Kolkata,Solar,520000,2,87,1,530000
+Wind Farm G,Pune,Wind,770000,3,79,2,780000
+Hydro Project H,Ahmedabad,Hydro,620000,1,92,1,630000
+Geothermal I,Jaipur,Geothermal,850000,4,76,3,860000
+BioEnergy J,Lucknow,BioEnergy,580000,3,82,2,590000
+Solar Plant K,Indore,Solar,530000,1,89,1,540000
+Wind Farm L,Bhopal,Wind,780000,2,81,2,790000
+Hydro Project M,Visakhapatnam,Hydro,630000,1,94,1,640000
+Geothermal N,Surat,Geothermal,860000,5,73,3,870000
+BioEnergy O,Patna,BioEnergy,590000,2,83,2,600000
+Solar Plant P,Chandigarh,Solar,540000,2,86,1,550000
+Wind Farm Q,Nagpur,Wind,790000,4,77,2,800000
+Hydro Project R,Coimbatore,Hydro,640000,1,91,1,650000
+Geothermal S,Thiruvananthapuram,Geothermal,870000,3,75,3,880000
+BioEnergy T,Vadodara,BioEnergy,600000,3,79,2,610000
+Solar Plant A,Delhi,Solar,500000,2,85,1,520000
+Wind Farm B,Mumbai,Wind,750000,3,78,2,770000
+Hydro Project C,Bangalore,Hydro,600000,1,90,1,620000
+Geothermal D,Hyderabad,Geothermal,800000,4,74,3,850000
+BioEnergy E,Chennai,BioEnergy,550000,3,80,2,580000
+Solar Plant F,Kolkata,Solar,520000,2,87,1,530000
+Wind Farm G,Pune,Wind,770000,3,79,2,780000
+Hydro Project H,Ahmedabad,Hydro,620000,1,92,1,630000
+Geothermal I,Jaipur,Geothermal,850000,4,76,3,860000
+BioEnergy J,Lucknow,BioEnergy,580000,3,82,2,590000
+Solar Plant K,Indore,Solar,530000,1,89,1,540000
+Wind Farm L,Bhopal,Wind,780000,2,81,2,790000
+Hydro Project M,Visakhapatnam,Hydro,630000,1,94,1,640000
+Geothermal N,Surat,Geothermal,860000,5,73,3,870000
+BioEnergy O,Patna,BioEnergy,590000,2,83,2,600000
+Solar Plant P,Chandigarh,Solar,540000,2,86,1,550000
+Wind Farm Q,Nagpur,Wind,790000,4,77,2,800000
+Hydro Project R,Coimbatore,Hydro,640000,1,91,1,650000
+Geothermal S,Thiruvananthapuram,Geothermal,870000,3,75,3,880000
+BioEnergy T,Vadodara,BioEnergy,600000,3,79,2,610000
+Solar Plant A,Delhi,Solar,500000,2,85,1,520000
+Wind Farm B,Mumbai,Wind,750000,3,78,2,770000
+Hydro Project C,Bangalore,Hydro,600000,1,90,1,620000
+Geothermal D,Hyderabad,Geothermal,800000,4,74,3,850000
+BioEnergy E,Chennai,BioEnergy,550000,3,80,2,580000
+Solar Plant F,Kolkata,Solar,520000,2,87,1,530000
+Wind Farm G,Pune,Wind,770000,3,79,2,780000
+Hydro Project H,Ahmedabad,Hydro,620000,1,92,1,630000
+Geothermal I,Jaipur,Geothermal,850000,4,76,3,860000
+BioEnergy J,Lucknow,BioEnergy,580000,3,82,2,590000
+Solar Plant K,Indore,Solar,530000,1,89,1,540000
+Wind Farm L,Bhopal,Wind,780000,2,81,2,790000
+Hydro Project M,Visakhapatnam,Hydro,630000,1,94,1,640000
+Geothermal N,Surat,Geothermal,860000,5,73,3,870000
+BioEnergy O,Patna,BioEnergy,590000,2,83,2,600000
+Solar Plant P,Chandigarh,Solar,540000,2,86,1,550000
+Wind Farm Q,Nagpur,Wind,790000,4,77,2,800000
+Hydro Project R,Coimbatore,Hydro,640000,1,91,1,650000
+Geothermal S,Thiruvananthapuram,Geothermal,870000,3,75,3,880000
+BioEnergy T,Vadodara,BioEnergy,600000,3,79,2,610000
+Solar Plant A,Delhi,Solar,500000,2,85,1,520000
+Wind Farm B,Mumbai,Wind,750000,3,78,2,770000
+Hydro Project C,Bangalore,Hydro,600000,1,90,1,620000
+Geothermal D,Hyderabad,Geothermal,800000,4,74,3,850000
+BioEnergy E,Chennai,BioEnergy,550000,3,80,2,580000
+Solar Plant F,Kolkata,Solar,520000,2,87,1,530000
+Wind Farm G,Pune,Wind,770000,3,79,2,780000
+Hydro Project H,Ahmedabad,Hydro,620000,1,92,1,630000
+Geothermal I,Jaipur,Geothermal,850000,4,76,3,860000
+BioEnergy J,Lucknow,BioEnergy,580000,3,82,2,590000
+Solar Plant K,Indore,Solar,530000,1,89,1,540000
+Wind Farm L,Bhopal,Wind,780000,2,81,2,790000
+Hydro Project M,Visakhapatnam,Hydro,630000,1,94,1,640000
+Geothermal N,Surat,Geothermal,860000,5,73,3,870000
+BioEnergy O,Patna,BioEnergy,590000,2,83,2,600000
+Solar Plant P,Chandigarh,Solar,540000,2,86,1,550000
+Wind Farm Q,Nagpur,Wind,790000,4,77,2,800000
+Hydro Project R,Coimbatore,Hydro,640000,1,91,1,650000
+Geothermal S,Thiruvananthapuram,Geothermal,870000,3,75,3,880000
+BioEnergy T,Vadodara,BioEnergy,600000,3,79,2,610000
+Solar Plant A,Delhi,Solar,500000,2,85,1,520000
+Wind Farm B,Mumbai,Wind,750000,3,78,2,770000
+Hydro Project C,Bangalore,Hydro,600000,1,90,1,620000
+Geothermal D,Hyderabad,Geothermal,800000,4,74,3,850000
+BioEnergy E,Chennai,BioEnergy,550000,3,80,2,580000
+Solar Plant F,Kolkata,Solar,520000,2,87,1,530000
+Wind Farm G,Pune,Wind,770000,3,79,2,780000
+Hydro Project H,Ahmedabad,Hydro,620000,1,92,1,630000
+Geothermal I,Jaipur,Geothermal,850000,4,76,3,860000
+BioEnergy J,Lucknow,BioEnergy,580000,3,82,2,590000
+Solar Plant K,Indore,Solar,530000,1,89,1,540000
+Wind Farm L,Bhopal,Wind,780000,2,81,2,790000
+Hydro Project M,Visakhapatnam,Hydro,630000,1,94,1,640000
+Geothermal N,Surat,Geothermal,860000,5,73,3,870000
+BioEnergy O,Patna,BioEnergy,590000,2,83,2,600000
+Solar Plant P,Chandigarh,Solar,540000,2,86,1,550000
+Wind Farm Q,Nagpur,Wind,790000,4,77,2,800000
+Hydro Project R,Coimbatore,Hydro,640000,1,91,1,650000
+Geothermal S,Thiruvananthapuram,Geothermal,870000,3,75,3,880000
+BioEnergy T,Vadodara,BioEnergy,600000,3,79,2,610000
+Solar Plant A,Delhi,Solar,500000,2,85,1,520000
+Wind Farm B,Mumbai,Wind,750000,3,78,2,770000
+Hydro Project C,Bangalore,Hydro,600000,1,90,1,620000
+Geothermal D,Hyderabad,Geothermal,800000,4,74,3,850000
+BioEnergy E,Chennai,BioEnergy,550000,3,80,2,580000
+Solar Plant F,Kolkata,Solar,520000,2,87,1,530000
+Wind Farm G,Pune,Wind,770000,3,79,2,780000
+Hydro Project H,Ahmedabad,Hydro,620000,1,92,1,630000
+Geothermal I,Jaipur,Geothermal,850000,4,76,3,860000
+BioEnergy J,Lucknow,BioEnergy,580000,3,82,2,590000
+Solar Plant K,Indore,Solar,530000,1,89,1,540000
+Wind Farm L,Bhopal,Wind,780000,2,81,2,790000
+Hydro Project M,Visakhapatnam,Hydro,630000,1,94,1,640000
+Geothermal N,Surat,Geothermal,860000,5,73,3,870000
+BioEnergy O,Patna,BioEnergy,590000,2,83,2,600000
+Solar Plant P,Chandigarh,Solar,540000,2,86,1,550000
+Wind Farm Q,Nagpur,Wind,790000,4,77,2,800000
+Hydro Project R,Coimbatore,Hydro,640000,1,91,1,650000
+Geothermal S,Thiruvananthapuram,Geothermal,870000,3,75,3,880000
+BioEnergy T,Vadodara,BioEnergy,600000,3,79,2,610000
+Solar Plant A,Delhi,Solar,500000,2,85,1,520000
+Wind Farm B,Mumbai,Wind,750000,3,78,2,770000
+Hydro Project C,Bangalore,Hydro,600000,1,90,1,620000
+Geothermal D,Hyderabad,Geothermal,800000,4,74,3,850000
+BioEnergy E,Chennai,BioEnergy,550000,3,80,2,580000
+Solar Plant F,Kolkata,Solar,520000,2,87,1,530000
+Wind Farm G,Pune,Wind,770000,3,79,2,780000
+Hydro Project H,Ahmedabad,Hydro,620000,1,92,1,630000
+Geothermal I,Jaipur,Geothermal,850000,4,76,3,860000
+BioEnergy J,Lucknow,BioEnergy,580000,3,82,2,590000
+Solar Plant K,Indore,Solar,530000,1,89,1,540000
+Wind Farm L,Bhopal,Wind,780000,2,81,2,790000
+Hydro Project M,Visakhapatnam,Hydro,630000,1,94,1,640000
+Geothermal N,Surat,Geothermal,860000,5,73,3,870000
+BioEnergy O,Patna,BioEnergy,590000,2,83,2,600000
+Solar Plant P,Chandigarh,Solar,540000,2,86,1,550000
+Wind Farm Q,Nagpur,Wind,790000,4,77,2,800000
+Hydro Project R,Coimbatore,Hydro,640000,1,91,1,650000
+Geothermal S,Thiruvananthapuram,Geothermal,870000,3,75,3,880000
+BioEnergy T,Vadodara,BioEnergy,600000,3,79,2,610000
+Solar Plant A,Delhi,Solar,500000,2,85,1,520000
+Wind Farm B,Mumbai,Wind,750000,3,78,2,770000
+Hydro Project C,Bangalore,Hydro,600000,1,90,1,620000
+Geothermal D,Hyderabad,Geothermal,800000,4,74,3,850000
+BioEnergy E,Chennai,BioEnergy,550000,3,80,2,580000
+Solar Plant F,Kolkata,Solar,520000,2,87,1,530000
+Wind Farm G,Pune,Wind,770000,3,79,2,780000
+Hydro Project H,Ahmedabad,Hydro,620000,1,92,1,630000
+Geothermal I,Jaipur,Geothermal,850000,4,76,3,860000
+BioEnergy J,Lucknow,BioEnergy,580000,3,82,2,590000
+Solar Plant K,Indore,Solar,530000,1,89,1,540000
+Wind Farm L,Bhopal,Wind,780000,2,81,2,790000
+Hydro Project M,Visakhapatnam,Hydro,630000,1,94,1,640000
+Geothermal N,Surat,Geothermal,860000,5,73,3,870000
+BioEnergy O,Patna,BioEnergy,590000,2,83,2,600000
+Solar Plant P,Chandigarh,Solar,540000,2,86,1,550000
+Wind Farm Q,Nagpur,Wind,790000,4,77,2,800000
+Hydro Project R,Coimbatore,Hydro,640000,1,91,1,650000
+Geothermal S,Thiruvananthapuram,Geothermal,870000,3,75,3,880000
+BioEnergy T,Vadodara,BioEnergy,600000,3,79,2,610000
+Solar Plant A,Delhi,Solar,500000,2,85,1,520000
+Wind Farm B,Mumbai,Wind,750000,3,78,2,770000
+Hydro Project C,Bangalore,Hydro,600000,1,90,1,620000
+Geothermal D,Hyderabad,Geothermal,800000,4,74,3,850000
+BioEnergy E,Chennai,BioEnergy,550000,3,80,2,580000
+Solar Plant F,Kolkata,Solar,520000,2,87,1,530000
+Wind Farm G,Pune,Wind,770000,3,79,2,780000
+Hydro Project H,Ahmedabad,Hydro,620000,1,92,1,630000
+Geothermal I,Jaipur,Geothermal,850000,4,76,3,860000
+BioEnergy J,Lucknow,BioEnergy,580000,3,82,2,590000
+Solar Plant K,Indore,Solar,530000,1,89,1,540000
+Wind Farm L,Bhopal,Wind,780000,2,81,2,790000
+Hydro Project M,Visakhapatnam,Hydro,630000,1,94,1,640000
+Geothermal N,Surat,Geothermal,860000,5,73,3,870000
+BioEnergy O,Patna,BioEnergy,590000,2,83,2,600000
+Solar Plant P,Chandigarh,Solar,540000,2,86,1,550000
+Wind Farm Q,Nagpur,Wind,790000,4,77,2,800000
+Hydro Project R,Coimbatore,Hydro,640000,1,91,1,650000
+Geothermal S,Thiruvananthapuram,Geothermal,870000,3,75,3,880000
+BioEnergy T,Vadodara,BioEnergy,600000,3,79,2,610000
+Solar Plant A,Delhi,Solar,500000,2,85,1,520000
+Wind Farm B,Mumbai,Wind,750000,3,78,2,770000
+Hydro Project C,Bangalore,Hydro,600000,1,90,1,620000
+Geothermal D,Hyderabad,Geothermal,800000,4,74,3,850000
+BioEnergy E,Chennai,BioEnergy,550000,3,80,2,580000
+Solar Plant F,Kolkata,Solar,520000,2,87,1,530000
+Wind Farm G,Pune,Wind,770000,3,79,2,780000
+Hydro Project H,Ahmedabad,Hydro,620000,1,92,1,630000
+Geothermal I,Jaipur,Geothermal,850000,4,76,3,860000
+BioEnergy J,Lucknow,BioEnergy,580000,3,82,2,590000
+Solar Plant K,Indore,Solar,530000,1,89,1,540000
+Wind Farm L,Bhopal,Wind,780000,2,81,2,790000
+Hydro Project M,Visakhapatnam,Hydro,630000,1,94,1,640000
+Geothermal N,Surat,Geothermal,860000,5,73,3,870000
+BioEnergy O,Patna,BioEnergy,590000,2,83,2,600000
+Solar Plant P,Chandigarh,Solar,540000,2,86,1,550000
+Wind Farm Q,Nagpur,Wind,790000,4,77,2,800000
+Hydro Project R,Coimbatore,Hydro,640000,1,91,1,650000
+Geothermal S,Thiruvananthapuram,Geothermal,870000,3,75,3,880000
+BioEnergy T,Vadodara,BioEnergy,600000,3,79,2,610000
+Solar Plant A,Delhi,Solar,500000,2,85,1,520000
+Wind Farm B,Mumbai,Wind,750000,3,78,2,770000
+Hydro Project C,Bangalore,Hydro,600000,1,90,1,620000
+Geothermal D,Hyderabad,Geothermal,800000,4,74,3,850000
+BioEnergy E,Chennai,BioEnergy,550000,3,80,2,580000
+Solar Plant F,Kolkata,Solar,520000,2,87,1,530000
+Wind Farm G,Pune,Wind,770000,3,79,2,780000
+Hydro Project H,Ahmedabad,Hydro,620000,1,92,1,630000
+Geothermal I,Jaipur,Geothermal,850000,4,76,3,860000
+BioEnergy J,Lucknow,BioEnergy,580000,3,82,2,590000
+Solar Plant K,Indore,Solar,530000,1,89,1,540000
+Wind Farm L,Bhopal,Wind,780000,2,81,2,790000
+Hydro Project M,Visakhapatnam,Hydro,630000,1,94,1,640000
+Geothermal N,Surat,Geothermal,860000,5,73,3,870000
+BioEnergy O,Patna,BioEnergy,590000,2,83,2,600000
+Solar Plant P,Chandigarh,Solar,540000,2,86,1,550000
+Wind Farm Q,Nagpur,Wind,790000,4,77,2,800000
+Hydro Project R,Coimbatore,Hydro,640000,1,91,1,650000
+Geothermal S,Thiruvananthapuram,Geothermal,870000,3,75,3,880000
+BioEnergy T,Vadodara,BioEnergy,600000,3,79,2,610000
+Solar Plant A,Delhi,Solar,500000,2,85,1,520000
+Wind Farm B,Mumbai,Wind,750000,3,78,2,770000
+Hydro Project C,Bangalore,Hydro,600000,1,90,1,620000
+Geothermal D,Hyderabad,Geothermal,800000,4,74,3,850000
+BioEnergy E,Chennai,BioEnergy,550000,3,80,2,580000
+Solar Plant F,Kolkata,Solar,520000,2,87,1,530000
+Wind Farm G,Pune,Wind,770000,3,79,2,780000
+Hydro Project H,Ahmedabad,Hydro,620000,1,92,1,630000
+Geothermal I,Jaipur,Geothermal,850000,4,76,3,860000
+BioEnergy J,Lucknow,BioEnergy,580000,3,82,2,590000
+Solar Plant K,Indore,Solar,530000,1,89,1,540000
+Wind Farm L,Bhopal,Wind,780000,2,81,2,790000
+Hydro Project M,Visakhapatnam,Hydro,630000,1,94,1,640000
+Geothermal N,Surat,Geothermal,860000,5,73,3,870000
+BioEnergy O,Patna,BioEnergy,590000,2,83,2,600000
+Solar Plant P,Chandigarh,Solar,540000,2,86,1,550000
+Wind Farm Q,Nagpur,Wind,790000,4,77,2,800000
+Hydro Project R,Coimbatore,Hydro,640000,1,91,1,650000
+Geothermal S,Thiruvananthapuram,Geothermal,870000,3,75,3,880000
+BioEnergy T,Vadodara,BioEnergy,600000,3,79,2,610000
+Solar Plant A,Delhi,Solar,500000,2,85,1,520000
+Wind Farm B,Mumbai,Wind,750000,3,78,2,770000
+Hydro Project C,Bangalore,Hydro,600000,1,90,1,620000
+Geothermal D,Hyderabad,Geothermal,800000,4,74,3,850000
+BioEnergy E,Chennai,BioEnergy,550000,3,80,2,580000
+Solar Plant F,Kolkata,Solar,520000,2,87,1,530000
+Wind Farm G,Pune,Wind,770000,3,79,2,780000
+Hydro Project H,Ahmedabad,Hydro,620000,1,92,1,630000
+Geothermal I,Jaipur,Geothermal,850000,4,76,3,860000
+BioEnergy J,Lucknow,BioEnergy,580000,3,82,2,590000
+Solar Plant K,Indore,Solar,530000,1,89,1,540000
+Wind Farm L,Bhopal,Wind,780000,2,81,2,790000
+Hydro Project M,Visakhapatnam,Hydro,630000,1,94,1,640000
+Geothermal N,Surat,Geothermal,860000,5,73,3,870000
+BioEnergy O,Patna,BioEnergy,590000,2,83,2,600000
+Solar Plant P,Chandigarh,Solar,540000,2,86,1,550000
+Wind Farm Q,Nagpur,Wind,790000,4,77,2,800000
+Hydro Project R,Coimbatore,Hydro,640000,1,91,1,650000
+Geothermal S,Thiruvananthapuram,Geothermal,870000,3,75,3,880000
+BioEnergy T,Vadodara,BioEnergy,600000,3,79,2,610000
+Solar Plant A,Delhi,Solar,500000,2,85,1,520000
+Wind Farm B,Mumbai,Wind,750000,3,78,2,770000
+Hydro Project C,Bangalore,Hydro,600000,1,90,1,620000
+Geothermal D,Hyderabad,Geothermal,800000,4,74,3,850000
+BioEnergy E,Chennai,BioEnergy,550000,3,80,2,580000
+Solar Plant F,Kolkata,Solar,520000,2,87,1,530000
+Wind Farm G,Pune,Wind,770000,3,79,2,780000
+Hydro Project H,Ahmedabad,Hydro,620000,1,92,1,630000
+Geothermal I,Jaipur,Geothermal,850000,4,76,3,860000
+BioEnergy J,Lucknow,BioEnergy,580000,3,82,2,590000
+Solar Plant K,Indore,Solar,530000,1,89,1,540000
+Wind Farm L,Bhopal,Wind,780000,2,81,2,790000
+Hydro Project M,Visakhapatnam,Hydro,630000,1,94,1,640000
+Geothermal N,Surat,Geothermal,860000,5,73,3,870000
+BioEnergy O,Patna,BioEnergy,590000,2,83,2,600000
+Solar Plant P,Chandigarh,Solar,540000,2,86,1,550000
+Wind Farm Q,Nagpur,Wind,790000,4,77,2,800000
+Hydro Project R,Coimbatore,Hydro,640000,1,91,1,650000
+Geothermal S,Thiruvananthapuram,Geothermal,870000,3,75,3,880000
+BioEnergy T,Vadodara,BioEnergy,600000,3,79,2,610000
+Solar Plant A,Delhi,Solar,500000,2,85,1,520000
+Wind Farm B,Mumbai,Wind,750000,3,78,2,770000
+Hydro Project C,Bangalore,Hydro,600000,1,90,1,620000
+Geothermal D,Hyderabad,Geothermal,800000,4,74,3,850000
+BioEnergy E,Chennai,BioEnergy,550000,3,80,2,580000
+Solar Plant F,Kolkata,Solar,520000,2,87,1,530000
+Wind Farm G,Pune,Wind,770000,3,79,2,780000
+Hydro Project H,Ahmedabad,Hydro,620000,1,92,1,630000
+Geothermal I,Jaipur,Geothermal,850000,4,76,3,860000
+BioEnergy J,Lucknow,BioEnergy,580000,3,82,2,590000
+Solar Plant K,Indore,Solar,530000,1,89,1,540000
+Wind Farm L,Bhopal,Wind,780000,2,81,2,790000
+Hydro Project M,Visakhapatnam,Hydro,630000,1,94,1,640000
+Geothermal N,Surat,Geothermal,860000,5,73,3,870000
+BioEnergy O,Patna,BioEnergy,590000,2,83,2,600000
+Solar Plant P,Chandigarh,Solar,540000,2,86,1,550000
+Wind Farm Q,Nagpur,Wind,790000,4,77,2,800000
+Hydro Project R,Coimbatore,Hydro,640000,1,91,1,650000
+Geothermal S,Thiruvananthapuram,Geothermal,870000,3,75,3,880000
+BioEnergy T,Vadodara,BioEnergy,600000,3,79,2,610000
+Solar Plant A,Delhi,Solar,500000,2,85,1,520000
+Wind Farm B,Mumbai,Wind,750000,3,78,2,770000
+Hydro Project C,Bangalore,Hydro,600000,1,90,1,620000
+Geothermal D,Hyderabad,Geothermal,800000,4,74,3,850000
+BioEnergy E,Chennai,BioEnergy,550000,3,80,2,580000
+Solar Plant F,Kolkata,Solar,520000,2,87,1,530000
+Wind Farm G,Pune,Wind,770000,3,79,2,780000
+Hydro Project H,Ahmedabad,Hydro,620000,1,92,1,630000
+Geothermal I,Jaipur,Geothermal,850000,4,76,3,860000
+BioEnergy J,Lucknow,BioEnergy,580000,3,82,2,590000
+Solar Plant K,Indore,Solar,530000,1,89,1,540000
+Wind Farm L,Bhopal,Wind,780000,2,81,2,790000
+Hydro Project M,Visakhapatnam,Hydro,630000,1,94,1,640000
+Geothermal N,Surat,Geothermal,860000,5,73,3,870000
+BioEnergy O,Patna,BioEnergy,590000,2,83,2,600000
+Solar Plant P,Chandigarh,Solar,540000,2,86,1,550000
+Wind Farm Q,Nagpur,Wind,790000,4,77,2,800000
+Hydro Project R,Coimbatore,Hydro,640000,1,91,1,650000
+Geothermal S,Thiruvananthapuram,Geothermal,870000,3,75,3,880000
+BioEnergy T,Vadodara,BioEnergy,600000,3,79,2,610000
+Solar Plant A,Delhi,Solar,500000,2,85,1,520000
+Wind Farm B,Mumbai,Wind,750000,3,78,2,770000
+Hydro Project C,Bangalore,Hydro,600000,1,90,1,620000
+Geothermal D,Hyderabad,Geothermal,800000,4,74,3,850000
+BioEnergy E,Chennai,BioEnergy,550000,3,80,2,580000
+Solar Plant F,Kolkata,Solar,520000,2,87,1,530000
+Wind Farm G,Pune,Wind,770000,3,79,2,780000
+Hydro Project H,Ahmedabad,Hydro,620000,1,92,1,630000
+Geothermal I,Jaipur,Geothermal,850000,4,76,3,860000
+BioEnergy J,Lucknow,BioEnergy,580000,3,82,2,590000
+Solar Plant K,Indore,Solar,530000,1,89,1,540000
+Wind Farm L,Bhopal,Wind,780000,2,81,2,790000
+Hydro Project M,Visakhapatnam,Hydro,630000,1,94,1,640000
+Geothermal N,Surat,Geothermal,860000,5,73,3,870000
+BioEnergy O,Patna,BioEnergy,590000,2,83,2,600000
+Solar Plant P,Chandigarh,Solar,540000,2,86,1,550000
+Wind Farm Q,Nagpur,Wind,790000,4,77,2,800000
+Hydro Project R,Coimbatore,Hydro,640000,1,91,1,650000
+Geothermal S,Thiruvananthapuram,Geothermal,870000,3,75,3,880000
+BioEnergy T,Vadodara,BioEnergy,600000,3,79,2,610000
+Solar Plant A,Delhi,Solar,500000,2,85,1,520000
+Wind Farm B,Mumbai,Wind,750000,3,78,2,770000
+Hydro Project C,Bangalore,Hydro,600000,1,90,1,620000
+Geothermal D,Hyderabad,Geothermal,800000,4,74,3,850000
+BioEnergy E,Chennai,BioEnergy,550000,3,80,2,580000
+Solar Plant F,Kolkata,Solar,520000,2,87,1,530000
+Wind Farm G,Pune,Wind,770000,3,79,2,780000
+Hydro Project H,Ahmedabad,Hydro,620000,1,92,1,630000
+Geothermal I,Jaipur,Geothermal,850000,4,76,3,860000
+BioEnergy J,Lucknow,BioEnergy,580000,3,82,2,590000
+Solar Plant K,Indore,Solar,530000,1,89,1,540000
+Wind Farm L,Bhopal,Wind,780000,2,81,2,790000
+Hydro Project M,Visakhapatnam,Hydro,630000,1,94,1,640000
+Geothermal N,Surat,Geothermal,860000,5,73,3,870000
+BioEnergy O,Patna,BioEnergy,590000,2,83,2,600000
+Solar Plant P,Chandigarh,Solar,540000,2,86,1,550000
+Wind Farm Q,Nagpur,Wind,790000,4,77,2,800000
+Hydro Project R,Coimbatore,Hydro,640000,1,91,1,650000
+Geothermal S,Thiruvananthapuram,Geothermal,870000,3,75,3,880000
+BioEnergy T,Vadodara,BioEnergy,600000,3,79,2,610000
+Solar Plant A,Delhi,Solar,500000,2,85,1,520000
+Wind Farm B,Mumbai,Wind,750000,3,78,2,770000
+Hydro Project C,Bangalore,Hydro,600000,1,90,1,620000
+Geothermal D,Hyderabad,Geothermal,800000,4,74,3,850000
+BioEnergy E,Chennai,BioEnergy,550000,3,80,2,580000
+Solar Plant F,Kolkata,Solar,520000,2,87,1,530000
+Wind Farm G,Pune,Wind,770000,3,79,2,780000
+Hydro Project H,Ahmedabad,Hydro,620000,1,92,1,630000
+Geothermal I,Jaipur,Geothermal,850000,4,76,3,860000
+BioEnergy J,Lucknow,BioEnergy,580000,3,82,2,590000
+Solar Plant K,Indore,Solar,530000,1,89,1,540000
+Wind Farm L,Bhopal,Wind,780000,2,81,2,790000
+Hydro Project M,Visakhapatnam,Hydro,630000,1,94,1,640000
+Geothermal N,Surat,Geothermal,860000,5,73,3,870000
+BioEnergy O,Patna,BioEnergy,590000,2,83,2,600000
+Solar Plant P,Chandigarh,Solar,540000,2,86,1,550000
+Wind Farm Q,Nagpur,Wind,790000,4,77,2,800000
+Hydro Project R,Coimbatore,Hydro,640000,1,91,1,650000
+Geothermal S,Thiruvananthapuram,Geothermal,870000,3,75,3,880000
+BioEnergy T,Vadodara,BioEnergy,600000,3,79,2,610000
+Solar Plant A,Delhi,Solar,500000,2,85,1,520000
+Wind Farm B,Mumbai,Wind,750000,3,78,2,770000
+Hydro Project C,Bangalore,Hydro,600000,1,90,1,620000
+Geothermal D,Hyderabad,Geothermal,800000,4,74,3,850000
+BioEnergy E,Chennai,BioEnergy,550000,3,80,2,580000
+Solar Plant F,Kolkata,Solar,520000,2,87,1,530000
+Wind Farm G,Pune,Wind,770000,3,79,2,780000
+Hydro Project H,Ahmedabad,Hydro,620000,1,92,1,630000
+Geothermal I,Jaipur,Geothermal,850000,4,76,3,860000
+BioEnergy J,Lucknow,BioEnergy,580000,3,82,2,590000
+Solar Plant K,Indore,Solar,530000,1,89,1,540000
+Wind Farm L,Bhopal,Wind,780000,2,81,2,790000
+Hydro Project M,Visakhapatnam,Hydro,630000,1,94,1,640000
+Geothermal N,Surat,Geothermal,860000,5,73,3,870000
+BioEnergy O,Patna,BioEnergy,590000,2,83,2,600000
+Solar Plant P,Chandigarh,Solar,540000,2,86,1,550000
+Wind Farm Q,Nagpur,Wind,790000,4,77,2,800000
+Hydro Project R,Coimbatore,Hydro,640000,1,91,1,650000
+Geothermal S,Thiruvananthapuram,Geothermal,870000,3,75,3,880000
+BioEnergy T,Vadodara,BioEnergy,600000,3,79,2,610000
+Solar Plant A,Delhi,Solar,500000,2,85,1,520000
+Wind Farm B,Mumbai,Wind,750000,3,78,2,770000
+Hydro Project C,Bangalore,Hydro,600000,1,90,1,620000
+Geothermal D,Hyderabad,Geothermal,800000,4,74,3,850000
+BioEnergy E,Chennai,BioEnergy,550000,3,80,2,580000
+Solar Plant F,Kolkata,Solar,520000,2,87,1,530000
+Wind Farm G,Pune,Wind,770000,3,79,2,780000
+Hydro Project H,Ahmedabad,Hydro,620000,1,92,1,630000
+Geothermal I,Jaipur,Geothermal,850000,4,76,3,860000
+BioEnergy J,Lucknow,BioEnergy,580000,3,82,2,590000
+Solar Plant K,Indore,Solar,530000,1,89,1,540000
+Wind Farm L,Bhopal,Wind,780000,2,81,2,790000
+Hydro Project M,Visakhapatnam,Hydro,630000,1,94,1,640000
+Geothermal N,Surat,Geothermal,860000,5,73,3,870000
+BioEnergy O,Patna,BioEnergy,590000,2,83,2,600000
+Solar Plant P,Chandigarh,Solar,540000,2,86,1,550000
+Wind Farm Q,Nagpur,Wind,790000,4,77,2,800000
+Hydro Project R,Coimbatore,Hydro,640000,1,91,1,650000
+Geothermal S,Thiruvananthapuram,Geothermal,870000,3,75,3,880000
+BioEnergy T,Vadodara,BioEnergy,600000,3,79,2,610000
+Solar Plant A,Delhi,Solar,500000,2,85,1,520000
+Wind Farm B,Mumbai,Wind,750000,3,78,2,770000
+Hydro Project C,Bangalore,Hydro,600000,1,90,1,620000
+Geothermal D,Hyderabad,Geothermal,800000,4,74,3,850000
+BioEnergy E,Chennai,BioEnergy,550000,3,80,2,580000
+Solar Plant F,Kolkata,Solar,520000,2,87,1,530000
+Wind Farm G,Pune,Wind,770000,3,79,2,780000
+Hydro Project H,Ahmedabad,Hydro,620000,1,92,1,630000
+Geothermal I,Jaipur,Geothermal,850000,4,76,3,860000
+BioEnergy J,Lucknow,BioEnergy,580000,3,82,2,590000
+Solar Plant K,Indore,Solar,530000,1,89,1,540000
+Wind Farm L,Bhopal,Wind,780000,2,81,2,790000
+Hydro Project M,Visakhapatnam,Hydro,630000,1,94,1,640000
+Geothermal N,Surat,Geothermal,860000,5,73,3,870000
+BioEnergy O,Patna,BioEnergy,590000,2,83,2,600000
+Solar Plant P,Chandigarh,Solar,540000,2,86,1,550000
+Wind Farm Q,Nagpur,Wind,790000,4,77,2,800000
+Hydro Project R,Coimbatore,Hydro,640000,1,91,1,650000
+Geothermal S,Thiruvananthapuram,Geothermal,870000,3,75,3,880000
+BioEnergy T,Vadodara,BioEnergy,600000,3,79,2,610000

@@ -10,7 +10,7 @@ import json
 from google import genai 
 from django.contrib.auth.models import User
 def suggestions(risk,esg,priority,capital):
-    client = genai.Client(api_key="YOUR-API-KEY")
+    client = genai.Client(api_key="AIzaSyDUaHL8CI0P6ukndFVCVdxzs4qkWWevPNU")
 
     response = client.models.generate_content(
     model="gemini-2.0-flash", contents=f"""You are a financial advisor AI specialized in sustainable (ESG) investments. 
@@ -37,7 +37,7 @@ Your response should be with in 300 chars and in **valid JSON** format with the 
   "additionalSuggestions": "<text>"
 
 """)
-    print(response.text)
+    # print(response.text)
     result=response.text
     result = result.lstrip("```json").rstrip("```")
     result_json = json.loads(result)

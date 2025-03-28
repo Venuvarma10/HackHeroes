@@ -7,58 +7,58 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import mean_absolute_error, accuracy_score
 
 # print("data")
-data = {
-    'project_name': [
-        'Solar Plant A', 'Wind Farm B', 'Hydro Project C', 'Geothermal D', 'BioEnergy E',
-        'Solar Plant F', 'Wind Farm G', 'Hydro Project H', 'Geothermal I', 'BioEnergy J',
-        'Solar Plant K', 'Wind Farm L', 'Hydro Project M', 'Geothermal N', 'BioEnergy O',
-        'Solar Plant P', 'Wind Farm Q', 'Hydro Project R', 'Geothermal S', 'BioEnergy T'
-    ],
-    'location': [
-        'Delhi', 'Mumbai', 'Bangalore', 'Hyderabad', 'Chennai',
-        'Kolkata', 'Pune', 'Ahmedabad', 'Jaipur', 'Lucknow',
-        'Indore', 'Bhopal', 'Visakhapatnam', 'Surat', 'Patna',
-        'Chandigarh', 'Nagpur', 'Coimbatore', 'Thiruvananthapuram', 'Vadodara'
-    ],
-    'category': [
-        'Solar', 'Wind', 'Hydro', 'Geothermal', 'BioEnergy',
-        'Solar', 'Wind', 'Hydro', 'Geothermal', 'BioEnergy',
-        'Solar', 'Wind', 'Hydro', 'Geothermal', 'BioEnergy',
-        'Solar', 'Wind', 'Hydro', 'Geothermal', 'BioEnergy'
-    ],
-    'initial_capital': [
-        500000, 750000, 600000, 800000, 550000,
-        520000, 770000, 620000, 850000, 580000,
-        530000, 780000, 630000, 860000, 590000,
-        540000, 790000, 640000, 870000, 600000
-    ],
-    'risk_factor': [
-        2, 3, 1, 4, 3,
-        2, 3, 1, 4, 3,
-        1, 2, 1, 5, 2,
-        2, 4, 1, 3, 3
-    ],
-    'esg_score': [
-        85, 78, 90, 74, 80,
-        87, 79, 92, 76, 82,
-        89, 81, 94, 73, 83,
-        86, 77, 91, 75, 79
-    ],
-    'priority': [
-        1, 2, 1, 3, 2,
-        1, 2, 1, 3, 2,
-        1, 2, 1, 3, 2,
-        1, 2, 1, 3, 2
-    ],
-    'actual_capital': [
-        520000, 770000, 620000, 850000, 580000,
-        530000, 780000, 630000, 860000, 590000,
-        540000, 790000, 640000, 870000, 600000,
-        550000, 800000, 650000, 880000, 610000
-    ]
-}
+# data = {
+#     'project_name': [
+#         'Solar Plant A', 'Wind Farm B', 'Hydro Project C', 'Geothermal D', 'BioEnergy E',
+#         'Solar Plant F', 'Wind Farm G', 'Hydro Project H', 'Geothermal I', 'BioEnergy J',
+#         'Solar Plant K', 'Wind Farm L', 'Hydro Project M', 'Geothermal N', 'BioEnergy O',
+#         'Solar Plant P', 'Wind Farm Q', 'Hydro Project R', 'Geothermal S', 'BioEnergy T'
+#     ],
+#     'location': [
+#         'Delhi', 'Mumbai', 'Bangalore', 'Hyderabad', 'Chennai',
+#         'Kolkata', 'Pune', 'Ahmedabad', 'Jaipur', 'Lucknow',
+#         'Indore', 'Bhopal', 'Visakhapatnam', 'Surat', 'Patna',
+#         'Chandigarh', 'Nagpur', 'Coimbatore', 'Thiruvananthapuram', 'Vadodara'
+#     ],
+#     'category': [
+#         'Solar', 'Wind', 'Hydro', 'Geothermal', 'BioEnergy',
+#         'Solar', 'Wind', 'Hydro', 'Geothermal', 'BioEnergy',
+#         'Solar', 'Wind', 'Hydro', 'Geothermal', 'BioEnergy',
+#         'Solar', 'Wind', 'Hydro', 'Geothermal', 'BioEnergy'
+#     ],
+#     'initial_capital': [
+#         500000, 750000, 600000, 800000, 550000,
+#         520000, 770000, 620000, 850000, 580000,
+#         530000, 780000, 630000, 860000, 590000,
+#         540000, 790000, 640000, 870000, 600000
+#     ],
+#     'risk_factor': [
+#         2, 3, 1, 4, 3,
+#         2, 3, 1, 4, 3,
+#         1, 2, 1, 5, 2,
+#         2, 4, 1, 3, 3
+#     ],
+#     'esg_score': [
+#         85, 78, 90, 74, 80,
+#         87, 79, 92, 76, 82,
+#         89, 81, 94, 73, 83,
+#         86, 77, 91, 75, 79
+#     ],
+#     'priority': [
+#         1, 2, 1, 3, 2,
+#         1, 2, 1, 3, 2,
+#         1, 2, 1, 3, 2,
+#         1, 2, 1, 3, 2
+#     ],
+#     'actual_capital': [
+#         520000, 770000, 620000, 850000, 580000,
+#         530000, 780000, 630000, 860000, 590000,
+#         540000, 790000, 640000, 870000, 600000,
+#         550000, 800000, 650000, 880000, 610000
+#     ]
+# }
 
-df = pd.DataFrame(data)
+df = pd.read_csv(r"C:\Users\HP\OneDrive\Desktop\hackheros\HackHeroes\HackHeros\datasets\esg_investment_large.csv")
 
 # Encoding categorical features
 label_encoders = {}
