@@ -1,11 +1,13 @@
-import { useState } from "react";
-import  logo  from "../assets/logo.jpg";
-import { NavLink } from "react-router-dom";
+import { useContext, useState } from "react";
+import  logo  from "../assets/Frame.png";
+import { NavLink, useNavigate } from "react-router-dom";
+import { ShopContext } from "./ContextAPI/ShopContext";
 const Register=()=> {
     const nameRegex=/^[a-zA-Z_-]{6,}$/; //Only letters, hyphens, and apostrophes; 4-50 character
     const emailRegex=/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;  //Must be 10 digits, starting with 6, 7, 8, or 9.
     const passwordRegex=/^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[@#$%^&*!])[A-Za-z\d@#$%^&*!]{8,}$/; //Must be 8+ characters with at least one uppercase, one lowercase, one digit, and one special character.
-
+    const navigate=useNavigate();
+    const {setUser}=useContext(ShopContext);
     const [formData,setFormData]=useState({
         userName:"",
         email:"",
@@ -35,7 +37,7 @@ const Register=()=> {
     }
     const registerUser=async()=>{
         try {
-        const response = await fetch(LOGIN_API, {
+        const response = await fetch("http://127.0.0.1:8000/api/register/", {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -47,7 +49,8 @@ const Register=()=> {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
             const new_data = await response.json();
-            return {username: formData.username, token: new_data.token};
+            setUser({userName:formData.email,token:new_data.token});
+            return true;
         } catch (error) {
             alert('Invalid username or password');
         }
@@ -55,17 +58,12 @@ const Register=()=> {
 
     const handleSubmit=(e)=>{
         e.preventDefault();
-        if((formData.name && formData.email && formData.password && formData.confirmPassword===formData.password)){
-            registerUser();
-            console.log(formData);
-        }else if(!formData.name){
-            alert("Enter User name");
-        }else if(!formData.email){
-            alert("Enter Email");
-        }else if(!formData.password){
-            alert("Enter Password");
-        }else if(!(formData.confirmPassword !== formData.password)){
-            alert("Match the passwords");
+        if(formData.userName && formData.email && formData.password && formData.confirmPassword===formData.password){
+            if(registerUser()){
+                navigate('/')
+            }
+        }else {
+            alert('Please fill all the fields and password should be same');
         }
         
         
@@ -83,11 +81,8 @@ const Register=()=> {
           p-10 flex flex-col gap-6 " >
         
         {/* Logo */}
-        <div className="flex items-center justify-center gap-2">
-          <div className="w-1 h-2.5 rotate-90 bg-[#FF4558] rounded"></div>
-          <div className="w-1 h-6 bg-[#5828FF] rounded"></div>
-          <div className="w-1 h-4 rotate-90 bg-[#5828FF] rounded"></div>
-          <div className="text-white text-lg font-mono">EchoFin<span className="text-[#FF2756] text-bolder"> AI</span></div>
+        <div className="flex items-center justify-center">
+            <img src={logo} className="w-[150px]"/>
         </div>
         
         {/* Email Input */}
@@ -109,7 +104,7 @@ const Register=()=> {
         {/* Password Input */}
         <div className="flex flex-col">
           <input type="password" placeholder="Confirm Password" name="confirmPassword" className="p-2 border border-white rounded-full text-white text-sm font-mono bg-transparent focus:outline-none" />
-          {error.passwordError===error.confirmPasswordError && <span className='error-message text-center'>Match passwords</span>}
+          {error.confirmPasswordError && <span className='error-message text-center'>Password Matched</span>}
         </div>
         
         {/* Login Button */}

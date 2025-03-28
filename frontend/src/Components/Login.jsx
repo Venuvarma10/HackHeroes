@@ -1,8 +1,11 @@
-import React,{useState} from "react";
-import  logo  from "../assets/logo.jpg";
-import { NavLink } from "react-router-dom";
+import React,{useContext, useState} from "react";
+import  logo  from "../assets/Frame.png";
+import { NavLink, useNavigate } from "react-router-dom";
+import { ShopContext } from "./ContextAPI/ShopContext";
 
 const Login = () => {
+  const navigate=useNavigate();
+  const {setUser}=useContext(ShopContext);
   const [formData,setFormData]=useState({
     email:"",
     password:""
@@ -10,7 +13,7 @@ const Login = () => {
 
   const loginUser=async(formData)=>{
     try {
-      const response = await fetch(LOGIN_API, {
+      const response = await fetch("http://127.0.0.1:8000/api/login/", {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
@@ -22,7 +25,8 @@ const Login = () => {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
         const new_data = await response.json();
-        return {username: formData.username, token: new_data.token};
+        setUser({userName:formData.email,token:new_data.token});
+        return true;
     } catch (error) {
         alert('Invalid username or password');
     }
@@ -31,12 +35,13 @@ const Login = () => {
   const handleChange=(e)=>{
     const {name,value}=e.target;
     setFormData({...formData,[name]:value});
-    console.log(formData)
   }
 
   const handleSubmit=(e)=>{
     e.preventDefault();
-    loginUser(formData)
+    if(loginUser(formData)){
+      navigate('/')
+    }
   }
   return (
     <div className="w-full h-screen relative bg-black overflow-hidden flex justify-center items-center" onChange={handleChange}>
@@ -51,7 +56,9 @@ const Login = () => {
           p-10 flex flex-col gap-6 w-96">
         
         {/* Logo */}
-        <img src={logo} className="w-[100px] text-black"/>
+        <div className="flex items-center justify-center">
+          <img src={logo} className="w-[150px]"/>
+        </div>
         {/* <div className="flex items-center justify-center gap-2">
           <div className="w-1 h-2.5 rotate-90 bg-[#FF4558] rounded"></div>
           <div className="w-1 h-6 bg-[#5828FF] rounded"></div>
@@ -61,7 +68,7 @@ const Login = () => {
         
         {/* Email Input */}
         <div className="flex flex-col">
-          <input type="email" placeholder="Enter Email" name="email" className="p-2 border border-white rounded-full text-white text-sm font-mono bg-transparent focus:outline-none" />
+          <input type="email" placeholder="Enter Username" name="email" className="p-2 border border-white rounded-full text-white text-sm font-mono bg-transparent focus:outline-none" />
         </div>
         
         {/* Password Input */}

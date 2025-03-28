@@ -1,4 +1,5 @@
 import AboutUs from "./Components/AboutUs"
+import ContactUs from "./Components/ContactUs"
 import Home from "./Components/Home"
 import InvestmentSubmission from "./Components/InvestmentSubmission"
 import Login from "./Components/Login"
@@ -19,6 +20,7 @@ function App() {
             <Route path="/results" element={<Results />} />
             <Route path="/investmentsubmission" element={<InvestmentSubmission />} />
             <Route path="/aboutus" element={<AboutUs />} />
+            <Route path="/contactus" element={<ContactUs />} />
           </Routes>
       
     </Router>

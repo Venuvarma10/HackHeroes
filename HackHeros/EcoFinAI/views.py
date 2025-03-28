@@ -49,21 +49,25 @@ class Registration(APIView):
 
     def post(self, request):
         data = request.data
-        serializer = RegistrationSerializer(data=data)
+        user_data={
+            "username":data["userName"],
+            "email":data["email"],
+            "password":data["password"],
+        }
+        serializer = RegistrationSerializer(data=user_data)
         if serializer.is_valid():
             user = serializer.save()
-            return Response({
-                "message": "Successfully Registered"
-            }, status=201)
+            token, created = Token.objects.get_or_create(user=user)  
+            return Response({"token": token.key}, status=202) 
         return Response(serializer.errors, status=400)
 
 class Login(APIView):
-    permission_classes = [AllowAny]
+    permission_classes = [AllowAny] 
 
     def post(self, request):
-        username = request.data.get('username')
+        email = request.data.get('email')
         password = request.data.get('password')
-        user = authenticate(username=username, password=password)
+        user = authenticate(username=email, password=password)
         if user:
             token, created = Token.objects.get_or_create(user=user)  
             return Response({"token": token.key}, status=202) 

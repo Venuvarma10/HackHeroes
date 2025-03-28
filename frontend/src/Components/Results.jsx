@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
 import Header from "./HEADER.JSX";
+import { ShopContext } from "./ContextAPI/ShopContext";
 
 const Results = () => {
+    const {prediction,title}=useContext(ShopContext);
+    console.log(title)
   return (
     <div className="relative w-full h-screen bg-black overflow-y-auto overflow-x-hidden">
       {/* Gradient Backgrounds */}
@@ -15,7 +18,7 @@ const Results = () => {
         Project Title:
       </div>
       <div className="absolute top-36 left-[389px] text-white text-lg font-normal">
-        Urban EcoRevive: Restoring Green Spaces in the City
+        {title}
       </div>
       <div className="absolute top-43 left-[332.93px] w-[694.09px] border border-white"></div>
       
@@ -27,10 +30,10 @@ const Results = () => {
       {/* Metrics Cards */}
       <div className="absolute top-[272px] left-[100px] flex space-x-25">
         {[
-          { title: "Risk", value: "4" },
-          { title: "ESG Score", value: "70" },
-          { title: "Priority", value: "2" },
-          { title: "Actual Amount", value: "₹400k" },
+          { title: "Risk", value: prediction?.data?.risk },
+          { title: "ESG Score", value: prediction?.data?.ESG },
+          { title: "Priority", value: prediction?.data?.Preority },
+          { title: "Actual Amount", value: prediction?.data?.Capital },
         ].map((item, index) => (
           <div
             key={index}
@@ -44,11 +47,10 @@ const Results = () => {
       
       {/* Recommendations Text */}
       <div className="absolute top-[671px] left-[352px] text-white text-lg font-normal leading-9 ">
-        Moderate risk (4/10). Requires careful monitoring.<br />
-        Strong ESG score (78.08). Excellent sustainability profile.<br />
-        Priority Level 3 suggests moderate importance. Align with overall portfolio goals.<br />
-        Allocate capital cautiously, prioritizing impact and risk-adjusted returns. Consider staged investments.<br />
-        Enhance transparency. Explore carbon offsetting. Track & report ESG metrics.
+        <p ><span className="font-bold text-blue-300">RiskAssessment:</span>&nbsp;{prediction.Recomendations.riskAssessment}</p><br/>
+        <p><span className="font-bold text-blue-300">PriorityJustification:</span>&nbsp;{prediction.Recomendations.priorityJustification}</p><br/>
+        <p><span className="font-bold text-blue-300">Investment Strategy:</span>&nbsp;{prediction.Recomendations.investmentStrategy}</p><br />
+        <p><span className="font-bold text-blue-300">Additional Suggestions:</span>&nbsp;{prediction.Recomendations.additionalSuggestions}</p><br />
       </div>
     </div>
   );
